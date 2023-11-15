@@ -14,13 +14,13 @@ cp -r $HTML_GERERADO/* $IMMENSITY
 
 
 #Subir el fichero a git
-cd ../$IMMENSITY
+cd $IMMENSITY
 
 # Git
-git add .
+git add *
 
 git commit -am "Nueva actualizacion"
 
-git push origin main
+git push
 
 echo "Operacion realizada con exito"
