@@ -5,8 +5,8 @@
     <description>Web de Immensity Jewels</description>
     <link>https://juanmanueldupi.github.io/</link>
     <atom:link href="https://juanmanueldupi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 Nov 2023 09:21:15 +0100</pubDate>
-    <lastBuildDate>Thu, 16 Nov 2023 09:21:15 +0100</lastBuildDate>
+    <pubDate>Thu, 16 Nov 2023 09:26:14 +0100</pubDate>
+    <lastBuildDate>Thu, 16 Nov 2023 09:26:14 +0100</lastBuildDate>
     <generator>Jekyll v3.9.3</generator>
     
       <item>
@@ -68,6 +68,23 @@
       </item>
     
       <item>
+        <title>Prueba: Introducción a la implantación de aplicaciones web.</title>
+        <description>&lt;h2 id=&quot;juan-manuel-duran-piñero&quot;&gt;Juan Manuel Duran Piñero&lt;/h2&gt;
+</description>
+        <pubDate>Fri, 20 Jul 2018 14:26:40 +0200</pubDate>
+        <link>https://juanmanueldupi.github.io/examen/</link>
+        <guid isPermaLink="true">https://juanmanueldupi.github.io/examen/</guid>
+        
+        <category>colgantes</category>
+        
+        <category>plata</category>
+        
+        <category>a mano</category>
+        
+        <category>joyas</category>
+      </item>
+    
+      <item>
         <title>Colgantes</title>
         <description>&lt;h2 id=&quot;todos-nuestros-productos-cumplen-con-las-siguientes-características&quot;&gt;Todos nuestros productos cumplen con las siguientes características:&lt;/h2&gt;
 
@@ -82,23 +99,6 @@
         <pubDate>Fri, 20 Jul 2018 14:26:40 +0200</pubDate>
         <link>https://juanmanueldupi.github.io/colgantes/</link>
         <guid isPermaLink="true">https://juanmanueldupi.github.io/colgantes/</guid>
-        
-        <category>colgantes</category>
-        
-        <category>plata</category>
-        
-        <category>a mano</category>
-        
-        <category>joyas</category>
-      </item>
-    
-      <item>
-        <title>Prueba: Introducción a la implantación de aplicaciones web.</title>
-        <description>&lt;h2 id=&quot;juan-manuel-duran-piñero&quot;&gt;Juan Manuel Duran Piñero&lt;/h2&gt;
-</description>
-        <pubDate>Fri, 20 Jul 2018 14:26:40 +0200</pubDate>
-        <link>https://juanmanueldupi.github.io/colgantes-(copia)/</link>
-        <guid isPermaLink="true">https://juanmanueldupi.github.io/colgantes-(copia)/</guid>
         
         <category>colgantes</category>
         
