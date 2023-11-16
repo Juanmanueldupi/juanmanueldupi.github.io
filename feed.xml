@@ -5,8 +5,8 @@
     <description>Web de Immensity Jewels</description>
     <link>https://juanmanueldupi.github.io/</link>
     <atom:link href="https://juanmanueldupi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 Nov 2023 09:09:41 +0100</pubDate>
-    <lastBuildDate>Thu, 16 Nov 2023 09:09:41 +0100</lastBuildDate>
+    <pubDate>Thu, 16 Nov 2023 09:16:51 +0100</pubDate>
+    <lastBuildDate>Thu, 16 Nov 2023 09:16:51 +0100</lastBuildDate>
     <generator>Jekyll v3.9.3</generator>
     
       <item>
@@ -63,6 +63,31 @@
         <category>platadeley</category>
         
         <category>hechoamano</category>
+        
+        <category>joyas</category>
+      </item>
+    
+      <item>
+        <title>Colgantes</title>
+        <description>&lt;h2 id=&quot;todos-nuestros-productos-cumplen-con-las-siguientes-características&quot;&gt;Todos nuestros productos cumplen con las siguientes características:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fabricados en España&lt;/li&gt;
+  &lt;li&gt;Realizados a mano&lt;/li&gt;
+  &lt;li&gt;Materiales: Plata Pura&lt;/li&gt;
+  &lt;li&gt;Hecho por encargo&lt;/li&gt;
+  &lt;li&gt;Personalizable&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 20 Jul 2018 14:26:40 +0200</pubDate>
+        <link>https://juanmanueldupi.github.io/colgantes/</link>
+        <guid isPermaLink="true">https://juanmanueldupi.github.io/colgantes/</guid>
+        
+        <category>colgantes</category>
+        
+        <category>plata</category>
+        
+        <category>a mano</category>
         
         <category>joyas</category>
       </item>
