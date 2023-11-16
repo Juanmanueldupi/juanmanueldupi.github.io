@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # Generar el sitio web estático
 bundle exec jekyll build
 
