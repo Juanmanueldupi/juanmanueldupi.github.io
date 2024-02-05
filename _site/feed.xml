@@ -5,8 +5,8 @@
     <description>Web de Immensity Jewels</description>
     <link>https://sysadmin.jduranasir.site/</link>
     <atom:link href="https://sysadmin.jduranasir.site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Feb 2024 13:40:22 +0100</pubDate>
-    <lastBuildDate>Mon, 05 Feb 2024 13:40:22 +0100</lastBuildDate>
+    <pubDate>Mon, 05 Feb 2024 13:50:37 +0100</pubDate>
+    <lastBuildDate>Mon, 05 Feb 2024 13:50:37 +0100</lastBuildDate>
     <generator>Jekyll v3.9.3</generator>
     
       <item>
@@ -20,24 +20,15 @@
       </item>
     
       <item>
-        <title>Pulseras</title>
-        <description>&lt;p&gt;Todas nuestras pulseras cumplen con las siguientes características:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Fabricados en España&lt;/li&gt;
-  &lt;li&gt;Realizados a mano&lt;/li&gt;
-  &lt;li&gt;Materiales: Plata Pura&lt;/li&gt;
-  &lt;li&gt;Hecho por encargo&lt;/li&gt;
-  &lt;li&gt;Personalizable&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+        <title>SAD</title>
+        <description>&lt;p&gt;h1. Práctica:&lt;/p&gt; &lt;p&gt;h1. Certificado digital de persona física&lt;/p&gt; &lt;p&gt;h1. Tarea 1: Instalación del certificado&lt;/p&gt; &lt;p&gt;h2. Una vez que hayas obtenido tu certificado, explica brevemente como se instala en tu navegador favorito.&lt;/p&gt; &lt;p&gt;Una vez descargado el certificado digital de la web de la fmnt en nuestro navegador de confianza pulsamos en el menu de aplicaciones, las tres lineas de la parte superior derecha, Ajustes -&amp;gt; Preferencias -&amp;gt; Privacidad&amp;amp;Seguridad -&amp;gt; Ver Certificados… -&amp;gt; Sus Certificados -&amp;gt; Importar&lt;/p&gt; &lt;p&gt;h2. Muestra una captura de pantalla donde se vea las preferencias del navegador donde se ve instalado tu certificado.&lt;/p&gt; &lt;p&gt;!254.png!&lt;/p&gt; &lt;p&gt;h2. ¿Cómo puedes hacer una...</description>
         <pubDate>Fri, 17 May 2019 01:48:05 +0200</pubDate>
         <link>https://sysadmin.jduranasir.site/pulseras/</link>
         <guid isPermaLink="true">https://sysadmin.jduranasir.site/pulseras/</guid>
         
-        <category>pulseras</category>
+        <category>Seguridad</category>
         
-        <category>platadeley</category>
+        <category>Cetificados Digitales</category>
         
         <category>joyas</category>
       </item>
