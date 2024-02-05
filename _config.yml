@@ -14,8 +14,8 @@ show_hero: true
 menu:
   - title: Principal
     url: /
-  - title: Anillos
-    url: /anillos/
+  - title: SAD
+    url: /SAD/certificadosdigitales
   - title: Aros
     url: /aros/
   - title: Pendientes
