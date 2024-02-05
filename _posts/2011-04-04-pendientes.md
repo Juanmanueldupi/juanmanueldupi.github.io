@@ -12,7 +12,7 @@ author: mranderson
 permalink: /pendientes/
 ---
 
-# Tarea 1: Generación de claves (1 punto)Permalink
+# Tarea 1: Generación de claves 
 
 ## 1.Genera un par de claves (pública y privada). ¿En que directorio se guarda las claves de un usuario?
 
