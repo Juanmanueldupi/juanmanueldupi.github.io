@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Immensity Jewels | Tus joyas made in Spain</title>
+    <description>Web de Immensity Jewels</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 05 Feb 2024 12:37:06 +0100</pubDate>
+    <lastBuildDate>Mon, 05 Feb 2024 12:37:06 +0100</lastBuildDate>
+    <generator>Jekyll v3.9.3</generator>
+    
+      <item>
+        <title>Immensity Jewels</title>
+        <description>&lt;p&gt;Somos un pequeño taller donde, nuestra vocación es la joyería, nuestra motivación la ilusión y nuestros valores la calidad de las joyas y la satisfacción del cliente. Con la labor artesanal en el taller cada pieza es única e incorpora pequeños matices que la distinguen de otras.&lt;/p&gt; &lt;h1 id=&quot;100-hecho-a-mano&quot;&gt;100% hecho a mano&lt;/h1&gt; &lt;p&gt;Desde nuestro taller realizamos a mano todas nuestras joyas desde el boceto hasta el producto final, disponemos de multitud de herramientas destinadas al detlle y la definición de nuestros productos para dejarlos perfectos para ti.&lt;/p&gt; &lt;h1 id=&quot;artesania-contemporánea-de-autor&quot;&gt;Artesania contemporánea de autor&lt;/h1&gt; &lt;p&gt;Nuestra labor artesanal se basa en la experiencia...</description>
+        <pubDate>Fri, 06 Oct 2023 10:28:54 +0200</pubDate>
+        <link>http://localhost:4000/inicio/</link>
+        <guid isPermaLink="true">http://localhost:4000/inicio/</guid>
+        
+        <category></category>
+      </item>
+    
+      <item>
+        <title>Pulseras</title>
+        <description>&lt;p&gt;Todas nuestras pulseras cumplen con las siguientes características:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fabricados en España&lt;/li&gt;
+  &lt;li&gt;Realizados a mano&lt;/li&gt;
+  &lt;li&gt;Materiales: Plata Pura&lt;/li&gt;
+  &lt;li&gt;Hecho por encargo&lt;/li&gt;
+  &lt;li&gt;Personalizable&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 17 May 2019 01:48:05 +0200</pubDate>
+        <link>http://localhost:4000/pulseras/</link>
+        <guid isPermaLink="true">http://localhost:4000/pulseras/</guid>
+        
+        <category>pulseras</category>
+        
+        <category>platadeley</category>
+        
+        <category>joyas</category>
+      </item>
+    
+      <item>
+        <title>Pendientes</title>
+        <description>&lt;h2 id=&quot;todos-nuestros-pendientes-cumplen-con-las-siguientes-características&quot;&gt;Todos nuestros pendientes cumplen con las siguientes características:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fabricados en España&lt;/li&gt;
+  &lt;li&gt;Realizados a mano&lt;/li&gt;
+  &lt;li&gt;Materiales: Plata Pura&lt;/li&gt;
+  &lt;li&gt;Hecho por encargo&lt;/li&gt;
+  &lt;li&gt;Personalizable&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 09 Oct 2018 14:26:40 +0200</pubDate>
+        <link>http://localhost:4000/pendientes/</link>
+        <guid isPermaLink="true">http://localhost:4000/pendientes/</guid>
+        
+        <category>pendientes</category>
+        
+        <category>platadeley</category>
+        
+        <category>hechoamano</category>
+        
+        <category>joyas</category>
+      </item>
+    
+      <item>
+        <title>Prueba: Introducción a la implantación de aplicaciones web.</title>
+        <description>&lt;h2 id=&quot;juan-manuel-duran-piñero&quot;&gt;Juan Manuel Duran Piñero&lt;/h2&gt;
+</description>
+        <pubDate>Fri, 20 Jul 2018 14:26:40 +0200</pubDate>
+        <link>http://localhost:4000/colgantes/</link>
+        <guid isPermaLink="true">http://localhost:4000/colgantes/</guid>
+        
+        <category>colgantes</category>
+        
+        <category>plata</category>
+        
+        <category>a mano</category>
+        
+        <category>joyas</category>
+      </item>
+    
+      <item>
+        <title>Colgantes</title>
+        <description>&lt;h2 id=&quot;todos-nuestros-productos-cumplen-con-las-siguientes-características&quot;&gt;Todos nuestros productos cumplen con las siguientes características:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fabricados en España&lt;/li&gt;
+  &lt;li&gt;Realizados a mano&lt;/li&gt;
+  &lt;li&gt;Materiales: Plata Pura&lt;/li&gt;
+  &lt;li&gt;Hecho por encargo&lt;/li&gt;
+  &lt;li&gt;Personalizable&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 20 Jul 2018 14:26:40 +0200</pubDate>
+        <link>http://localhost:4000/colgantes/</link>
+        <guid isPermaLink="true">http://localhost:4000/colgantes/</guid>
+        
+        <category>colgantes</category>
+        
+        <category>plata</category>
+        
+        <category>a mano</category>
+        
+        <category>joyas</category>
+      </item>
+    
+      <item>
+        <title>Collares</title>
+        <description>&lt;h2 id=&quot;posibles-medidas&quot;&gt;Posibles medidas:&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;38 cm&lt;/li&gt;
+  &lt;li&gt;40 cm&lt;/li&gt;
+  &lt;li&gt;42 cm&lt;/li&gt;
+  &lt;li&gt;45 cm&lt;/li&gt;
+  &lt;li&gt;50 cm&lt;/li&gt;
+  &lt;li&gt;55 cm&lt;/li&gt;
+  &lt;li&gt;60 cm&lt;/li&gt;
+  &lt;li&gt;65 cm&lt;/li&gt;
+  &lt;li&gt;70 cm&lt;/li&gt;
+  &lt;li&gt;80 cm&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img class=&quot;img-rounded&quot; src=&quot;/assets/img/uploads/medidas.jpg&quot; alt=&quot;Thiago Rossener&quot; width=&quot;1000&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;todos-nuestros-productos-cumplen-con-las-siguientes-características&quot;&gt;Todos nuestros productos cumplen con las siguientes características:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fabricados en España&lt;/li&gt;
+  &lt;li&gt;Realizados a mano&lt;/li&gt;
+  &lt;li&gt;Materiales: Plata Pura&lt;/li&gt;
+  &lt;li&gt;Hecho por encargo&lt;/li&gt;
+  &lt;li&gt;Personalizable&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 21 Apr 2018 14:26:40 +0200</pubDate>
+        <link>http://localhost:4000/collares/</link>
+        <guid isPermaLink="true">http://localhost:4000/collares/</guid>
+        
+        <category>collares</category>
+        
+        <category>platadeley</category>
+        
+        <category>joyas</category>
+      </item>
+    
+      <item>
+        <title>Aros</title>
+        <description>&lt;h2 id=&quot;todos-nuestros-productos-cumplen-con-las-siguientes-características&quot;&gt;Todos nuestros productos cumplen con las siguientes características:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fabricados en España&lt;/li&gt;
+  &lt;li&gt;Realizados a mano&lt;/li&gt;
+  &lt;li&gt;Plata Pura&lt;/li&gt;
+  &lt;li&gt;Totalmente únicos&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 12 Mar 2018 13:26:40 +0100</pubDate>
+        <link>http://localhost:4000/aros/</link>
+        <guid isPermaLink="true">http://localhost:4000/aros/</guid>
+        
+        <category>aros</category>
+        
+        <category>platadeley</category>
+        
+        <category>joyas</category>
+      </item>
+    
+      <item>
+        <title>Anillos</title>
+        <description>&lt;h2 id=&quot;tabla-de-medidas&quot;&gt;Tabla de medidas:&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Talla Europea&lt;/th&gt;
+      &lt;th&gt;Longitud Circunsferencia&lt;/th&gt;
+      &lt;th&gt;Diámetro Interior&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td&gt;25&lt;/td&gt;
+      &lt;td&gt;65&lt;/td&gt;
+      &lt;td&gt;20,6&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;50&lt;/td&gt;
+      &lt;td&gt;15,9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;15&lt;/td&gt;
+      &lt;td&gt;55&lt;/td&gt;
+      &lt;td&gt;17,5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;20&lt;/td&gt;
+      &lt;td&gt;60&lt;/td&gt;
+      &lt;td&gt;19,1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;todos-nuestros-anillos-cumplen-con-las-siguientes-características&quot;&gt;Todos nuestros anillos cumplen con las siguientes características:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fabricados en España&lt;/li&gt;
+  &lt;li&gt;Realizados a mano&lt;/li&gt;
+  &lt;li&gt;Materiales: Plata Pura&lt;/li&gt;
+  &lt;li&gt;Hecho por encargo&lt;/li&gt;
+  &lt;li&gt;Personalizable&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 06 Sep 2015 14:00:00 +0200</pubDate>
+        <link>http://localhost:4000/anillos/</link>
+        <guid isPermaLink="true">http://localhost:4000/anillos/</guid>
+        
+        <category>anillos</category>
+        
+        <category>platadeley</category>
+        
+        <category>joyas</category>
+      </item>
+    
+  </channel>
+</rss>
