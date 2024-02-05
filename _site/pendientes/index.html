@@ -17,28 +17,28 @@
     
     
 
-    <title>Pendientes | Immensity Jewels</title>
-    <meta name="description" content="En esta sección podemos ver los distintos tipos de pendientes que tenemos en stock actualmente.">
+    <title>SAD | Immensity Jewels</title>
+    <meta name="description" content="Práctica de Cifrado asimétrico con gpg y openssl.">
     
-        <meta name="keywords" content="pendientes, platadeley, hechoamano">
+        <meta name="keywords" content="Seguridad, Gpg y Openssl">
     
 
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Pendientes | Immensity Jewels">
-    <meta name="twitter:description" content="En esta sección podemos ver los distintos tipos de pendientes que tenemos en stock actualmente.">
+    <meta name="twitter:title" content="SAD | Immensity Jewels">
+    <meta name="twitter:description" content="Práctica de Cifrado asimétrico con gpg y openssl.">
 
     
-        <meta property="twitter:image" content="https://immensityjewels.000webhostapp.com/assets/images/pendientes3.jpg">
+        <meta property="twitter:image" content="https://sysadmin.jduranasir.site/assets/img/blog-image.png">
     
     
     
 
     <!-- Social: Facebook / Open Graph -->
     <meta property="og:url" content="https://sysadmin.jduranasir.site/pendientes/">
-    <meta property="og:title" content="Pendientes | Immensity Jewels">
-    <meta property="og:image" content="https://immensityjewels.000webhostapp.com/assets/images/pendientes3.jpg">
-    <meta property="og:description" content="En esta sección podemos ver los distintos tipos de pendientes que tenemos en stock actualmente.">
+    <meta property="og:title" content="SAD | Immensity Jewels">
+    <meta property="og:image" content="https://sysadmin.jduranasir.site/assets/img/blog-image.png">
+    <meta property="og:description" content="Práctica de Cifrado asimétrico con gpg y openssl.">
     <meta property="og:site_name" content="Immensity Jewels | Tus joyas made in Spain">
 
     <!-- Favicon -->
@@ -127,7 +127,7 @@
   
     
       <li>
-        <a href="https://sysadmin.jduranasir.site/anillos/">Anillos</a>
+        <a href="https://sysadmin.jduranasir.site/SAD/certificadosdigitales">SAD</a>
       </li>
     
   
@@ -202,13 +202,11 @@ October 9, 2018
                         </time>
                     
                     <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
-                    <span>1 min to read</span>
+                    <span>2 min to read</span>
                 </p>
-                <h1 class="post-title">Pendientes</h1>
-                <p class="post-subtitle">En esta sección podemos ver los distintos tipos de pendientes que tenemos en stock actualmente</p>
+                <h1 class="post-title">SAD</h1>
+                <p class="post-subtitle">En esta sección podremos ver practicas relacionadas con la Seguridad y Alta Disponibilidad en sistemas Linux</p>
 
-                
-                    <img src="https://immensityjewels.000webhostapp.com/assets/images/pendientes3.jpg" alt="Featured image" class="post-cover">
                 
 
                 <!-- Pagination links -->
@@ -218,15 +216,96 @@ October 9, 2018
                 <!-- Add your table of contents here -->
 
 
-                <h2 id="todos-nuestros-pendientes-cumplen-con-las-siguientes-características">Todos nuestros pendientes cumplen con las siguientes características:</h2>
+                <h1 id="tarea-1-generación-de-claves">Tarea 1: Generación de claves</h1>
 
-<ul>
-  <li>Fabricados en España</li>
-  <li>Realizados a mano</li>
-  <li>Materiales: Plata Pura</li>
-  <li>Hecho por encargo</li>
-  <li>Personalizable</li>
-</ul>
+<h2 id="1genera-un-par-de-claves-pública-y-privada-en-que-directorio-se-guarda-las-claves-de-un-usuario">1.Genera un par de claves (pública y privada). ¿En que directorio se guarda las claves de un usuario?</h2>
+
+<p>!154.png!
+Se guarda en el fichero /home/nombreusuario/.gnupg.</p>
+
+<h2 id="2lista-las-claves-públicas-que-tienes-en-tu-almacén-de-claves-explica-los-distintos-datos-que-nos-muestra-cómo-deberías-haber-generado-las-claves-para-indicar-por-ejemplo-que-tenga-un-1-mes-de-validez">2.Lista las claves públicas que tienes en tu almacén de claves. Explica los distintos datos que nos muestra. ¿Cómo deberías haber generado las claves para indicar, por ejemplo, que tenga un 1 mes de validez?</h2>
+
+<p>!153.png!
+!143.png!</p>
+
+<h2 id="3lista-las-claves-privadas-de-tu-almacén-de-claves">3.Lista las claves privadas de tu almacén de claves.</h2>
+
+<p>!155.png!</p>
+
+<h1 id="tarea-2-importar--exportar-clave-pública-1-puntopermalink">Tarea 2: Importar / exportar clave pública (1 punto)Permalink</h1>
+
+<h2 id="1exporta-tu-clave-pública-en-formato-ascii-y-guardalo-en-un-archivo-nombre_apellidoasc-y-envíalo-al-compañero-con-el-que-vas-a-hacer-esta-práctica">1.Exporta tu clave pública en formato ASCII y guardalo en un archivo nombre_apellido.asc y envíalo al compañero con el que vas a hacer esta práctica.</h2>
+
+<p>!156.png!</p>
+
+<h2 id="2importa-las-claves-públicas-recibidas-de-vuestro-compañero">2.Importa las claves públicas recibidas de vuestro compañero.</h2>
+
+<p>!157.png!</p>
+
+<h2 id="3comprueba-que-las-claves-se-han-incluido-correctamente-en-vuestro-keyring">3.Comprueba que las claves se han incluido correctamente en vuestro keyring.</h2>
+
+<p>!158.png!</p>
+
+<h1 id="tarea-3-cifrado-asimétrico-con-claves-públicas-3-puntospermalink">Tarea 3: Cifrado asimétrico con claves públicas (3 puntos)Permalink</h1>
+
+<h2 id="1-cifraremos-un-archivo-cualquiera-y-lo-remitiremos-por-email-a-uno-de-nuestros-compañeros-que-nos-proporcionó-su-clave-pública">1. Cifraremos un archivo cualquiera y lo remitiremos por email a uno de nuestros compañeros que nos proporcionó su clave pública.</h2>
+
+<p>!159.png!
+!160.png!</p>
+
+<h2 id="2nuestro-compañero-a-su-vez-nos-remitirá-un-archivo-cifrado-para-que-nosotros-lo-descifremos">2.Nuestro compañero, a su vez, nos remitirá un archivo cifrado para que nosotros lo descifremos.</h2>
+
+<p>!161.png!</p>
+
+<h2 id="3tanto-nosotros-como-nuestro-compañero-comprobaremos-que-hemos-podido-descifrar-los-mensajes-recibidos-respectivamente">3.Tanto nosotros como nuestro compañero comprobaremos que hemos podido descifrar los mensajes recibidos respectivamente.</h2>
+
+<p>!161.png!</p>
+
+<h2 id="4por-último-enviaremos-el-documento-cifrado-a-alguien-que-no-estaba-en-la-lista-de-destinatarios-y-comprobaremos-que-este-usuario-no-podrá-descifrar-este-archivo">4.Por último, enviaremos el documento cifrado a alguien que no estaba en la lista de destinatarios y comprobaremos que este usuario no podrá descifrar este archivo.</h2>
+
+<h2 id="5para-terminar-indica-los-comandos-necesarios-para-borrar-las-claves-públicas-y-privadas-que-posees">5.Para terminar, indica los comandos necesarios para borrar las claves públicas y privadas que posees.</h2>
+
+<p>!162.png!
+Si también queremos borrar la del compañero ponemos el id o su nombre.</p>
+
+<p>Tarea 4: Exportar clave a un servidor público de claves PGP (2 puntos)Permalink</p>
+
+<h2 id="1genera-la-clave-de-revocación-de-tu-clave-pública-para-utilizarla-en-caso-de-que-haya-problemas">1.Genera la clave de revocación de tu clave pública para utilizarla en caso de que haya problemas.</h2>
+
+<p>!163.png!</p>
+
+<h2 id="2exporta-tu-clave-pública-al-servidor-pgpredirises">2.Exporta tu clave pública al servidor pgp.rediris.es</h2>
+
+<p>Nos da un error al realizarlo a rediris, lo hemos realizado al mit, Instituto Tecnológico de Massachusetts.</p>
+
+<p>!164.png!
+!165.png!
+!166.png!</p>
+
+<h2 id="3borra-la-clave-pública-de-alguno-de-tus-compañeros-de-clase-e-impórtala-ahora-del-servidor-público-de-rediris">3.Borra la clave pública de alguno de tus compañeros de clase e impórtala ahora del servidor público de rediris.</h2>
+
+<p>!167.png!
+!168.png!</p>
+
+<h1 id="tarea-5-cifrado-asimétrico-con-openssl-3-puntospermalink">Tarea 5: Cifrado asimétrico con openssl (3 puntos)Permalink</h1>
+
+<h2 id="1-genera-un-par-de-claves-pública-y-privada">1. Genera un par de claves (pública y privada).</h2>
+
+<p>!169.png!
+!170.png!</p>
+
+<h2 id="2envía-tu-clave-pública-a-un-compañero">2.Envía tu clave pública a un compañero.</h2>
+
+<p>!174.png!</p>
+
+<h2 id="3utilizando-la-clave-pública-cifra-un-fichero-de-texto-y-envíalo-a-tu-compañero">3.Utilizando la clave pública cifra un fichero de texto y envíalo a tu compañero.</h2>
+
+<p>!171.png!</p>
+
+<h2 id="4tu-compañero-te-ha-mandado-un-fichero-cifrado-muestra-el-proceso-para-el-descifrado">4.Tu compañero te ha mandado un fichero cifrado, muestra el proceso para el descifrado.</h2>
+
+<p>!172.png!
+!173.png!</p>
 
 
                 <!-- Pagination links -->
@@ -242,29 +321,29 @@ October 9, 2018
                         
                         
                             <li>
-                                <a href="https://sysadmin.jduranasir.site/aros/">
+                                <a href="https://sysadmin.jduranasir.site/inicio/">
                                     
-                                        <img src="https://immensityjewels.000webhostapp.com/assets/images/aros1.jpg">
+                                        <img src="https://i.etsystatic.com/isbl/817f9d/52215183/isbl_1200x300.52215183_fjpb3w8t.jpg?version=0">
                                     
-                                    <h3>Aros</h3>
+                                    <h3>Immensity Jewels</h3>
                                 </a>
                             </li>
                         
                             <li>
-                                <a href="https://sysadmin.jduranasir.site/pulseras/">
+                                <a href="https://sysadmin.jduranasir.site/collares/">
+                                    
+                                        <img src="https://immensityjewels.000webhostapp.com/assets/images/collar2.jpg">
+                                    
+                                    <h3>Collares</h3>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://sysadmin.jduranasir.site/SAD/certificadosdigitales">
                                     
                                         <img src="/assets/img/off.jpg">
                                     
                                     <h3>SAD</h3>
-                                </a>
-                            </li>
-                        
-                            <li>
-                                <a href="https://sysadmin.jduranasir.site/colgantes/">
-                                    
-                                        <img src="https://immensityjewels.000webhostapp.com/assets/images/colgante2.jpg">
-                                    
-                                    <h3>Colgantes</h3>
                                 </a>
                             </li>
                         
@@ -287,7 +366,7 @@ October 9, 2018
 
         <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;En esta sección podemos ver los distintos tipos de pendientes que tenemos en stock actualmente.&quot;%20/pendientes/%20via%20&#64;&hashtags=pendientes,platadeley,hechoamano"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;Práctica de Cifrado asimétrico con gpg y openssl.&quot;%20/pendientes/%20via%20&#64;&hashtags=Seguridad,Gpg y Openssl"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
@@ -359,7 +438,7 @@ October 9, 2018
   
     
       <li>
-        <a href="https://sysadmin.jduranasir.site/anillos/">Anillos</a>
+        <a href="https://sysadmin.jduranasir.site/SAD/certificadosdigitales">SAD</a>
       </li>
     
   
@@ -480,22 +559,103 @@ October 9, 2018
         {
             "@context": "http://schema.org",
             "@type": "BlogPosting",
-            "name": "Pendientes",
-            "headline": "En esta sección podemos ver los distintos tipos de pendientes que tenemos en stock actualmente",
-            "description": "En esta sección podemos ver los distintos tipos de pendientes que tenemos en stock actualmente.",
-            "image": "https://immensityjewels.000webhostapp.com/assets/images/pendientes3.jpg",
+            "name": "SAD",
+            "headline": "En esta sección podremos ver practicas relacionadas con la Seguridad y Alta Disponibilidad en sistemas Linux",
+            "description": "Práctica de Cifrado asimétrico con gpg y openssl.",
+            "image": "",
             "url": "https://sysadmin.jduranasir.site/pendientes/",
-            "articleBody": "Todos nuestros pendientes cumplen con las siguientes características:
+            "articleBody": "Tarea 1: Generación de claves
 
+1.Genera un par de claves (pública y privada). ¿En que directorio se guarda las claves de un usuario?
 
-  Fabricados en España
-  Realizados a mano
-  Materiales: Plata Pura
-  Hecho por encargo
-  Personalizable
+!154.png!
+Se guarda en el fichero /home/nombreusuario/.gnupg.
 
+2.Lista las claves públicas que tienes en tu almacén de claves. Explica los distintos datos que nos muestra. ¿Cómo deberías haber generado las claves para indicar, por ejemplo, que tenga un 1 mes de validez?
+
+!153.png!
+!143.png!
+
+3.Lista las claves privadas de tu almacén de claves.
+
+!155.png!
+
+Tarea 2: Importar / exportar clave pública (1 punto)Permalink
+
+1.Exporta tu clave pública en formato ASCII y guardalo en un archivo nombre_apellido.asc y envíalo al compañero con el que vas a hacer esta práctica.
+
+!156.png!
+
+2.Importa las claves públicas recibidas de vuestro compañero.
+
+!157.png!
+
+3.Comprueba que las claves se han incluido correctamente en vuestro keyring.
+
+!158.png!
+
+Tarea 3: Cifrado asimétrico con claves públicas (3 puntos)Permalink
+
+1. Cifraremos un archivo cualquiera y lo remitiremos por email a uno de nuestros compañeros que nos proporcionó su clave pública.
+
+!159.png!
+!160.png!
+
+2.Nuestro compañero, a su vez, nos remitirá un archivo cifrado para que nosotros lo descifremos.
+
+!161.png!
+
+3.Tanto nosotros como nuestro compañero comprobaremos que hemos podido descifrar los mensajes recibidos respectivamente.
+
+!161.png!
+
+4.Por último, enviaremos el documento cifrado a alguien que no estaba en la lista de destinatarios y comprobaremos que este usuario no podrá descifrar este archivo.
+
+5.Para terminar, indica los comandos necesarios para borrar las claves públicas y privadas que posees.
+
+!162.png!
+Si también queremos borrar la del compañero ponemos el id o su nombre.
+
+Tarea 4: Exportar clave a un servidor público de claves PGP (2 puntos)Permalink
+
+1.Genera la clave de revocación de tu clave pública para utilizarla en caso de que haya problemas.
+
+!163.png!
+
+2.Exporta tu clave pública al servidor pgp.rediris.es
+
+Nos da un error al realizarlo a rediris, lo hemos realizado al mit, Instituto Tecnológico de Massachusetts.
+
+!164.png!
+!165.png!
+!166.png!
+
+3.Borra la clave pública de alguno de tus compañeros de clase e impórtala ahora del servidor público de rediris.
+
+!167.png!
+!168.png!
+
+Tarea 5: Cifrado asimétrico con openssl (3 puntos)Permalink
+
+1. Genera un par de claves (pública y privada).
+
+!169.png!
+!170.png!
+
+2.Envía tu clave pública a un compañero.
+
+!174.png!
+
+3.Utilizando la clave pública cifra un fichero de texto y envíalo a tu compañero.
+
+!171.png!
+
+4.Tu compañero te ha mandado un fichero cifrado, muestra el proceso para el descifrado.
+
+!172.png!
+!173.png!
 ",
-            "wordcount": "24",
+            "wordcount": "410",
             "inLanguage": "en",
             "dateCreated": "2018-10-09/",
             "datePublished": "2018-10-09/",
@@ -526,7 +686,7 @@ October 9, 2018
             "mainEntityOfPage": "True",
             "genre": "joyas",
             "articleSection": "joyas",
-            "keywords": ["pendientes","platadeley","hechoamano"]
+            "keywords": ["Seguridad","Gpg y Openssl"]
         }
         </script>
     </body>

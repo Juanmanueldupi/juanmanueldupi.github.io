@@ -14,13 +14,13 @@
       "title"    : "SAD",
       "tags"     : "Seguridad and Cetificados Digitales",
       "categories" : "joyas",
-      "url"      : "https://sysadmin.jduranasir.site/pulseras/",
+      "url"      : "https://sysadmin.jduranasir.site/SAD/certificadosdigitales",
       "date"     : "05/17/2019"
     } ,
   
     {
-      "title"    : "Pendientes",
-      "tags"     : "pendientes, platadeley, and hechoamano",
+      "title"    : "SAD",
+      "tags"     : "Seguridad and Gpg y Openssl",
       "categories" : "joyas",
       "url"      : "https://sysadmin.jduranasir.site/pendientes/",
       "date"     : "10/09/2018"
@@ -28,14 +28,6 @@
   
     {
       "title"    : "Prueba: Introducción a la implantación de aplicaciones web.",
-      "tags"     : "colgantes, plata, and a mano",
-      "categories" : "joyas",
-      "url"      : "https://sysadmin.jduranasir.site/colgantes/",
-      "date"     : "07/20/2018"
-    } ,
-  
-    {
-      "title"    : "Colgantes",
       "tags"     : "colgantes, plata, and a mano",
       "categories" : "joyas",
       "url"      : "https://sysadmin.jduranasir.site/colgantes/",
