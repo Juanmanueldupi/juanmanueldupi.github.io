@@ -2,7 +2,7 @@
 name: Immensity Jewels
 title: Immensity Jewels | Tus joyas made in Spain
 description: Web de Immensity Jewels
-#baseurl: "https://juanmanueldupi.github.io"
+baseurl: "https://sysadmin.jduranasir.site"
 url: "" # the base hostname & protocol for your site
 tags:
   - blog
@@ -47,7 +47,7 @@ github_username: Juanmanueldupi/juanmanueldupi.github.io
 #facebook_username: facebook_username
 #twitter_username: twitter_username
 #instagram_username: instagram_username
-linkedin_username: juan-manuel-durán-piñero-0608aaa7/
+linkedin_username: https://www.linkedin.com/in/juan-manuel-duran/
 #medium_username: medium_username
 
 

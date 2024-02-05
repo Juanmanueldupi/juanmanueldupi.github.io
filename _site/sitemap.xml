@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>http://localhost:4000/404.html</loc>
+            <loc>https://sysadmin.jduranasir.site/404.html</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -10,7 +10,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/404.html</loc>
+            <loc>https://sysadmin.jduranasir.site/404.html</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -18,7 +18,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/about/</loc>
+            <loc>https://sysadmin.jduranasir.site/about/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -26,7 +26,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/sobre-nosotros/</loc>
+            <loc>https://sysadmin.jduranasir.site/sobre-nosotros/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -34,7 +34,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/category/blog/</loc>
+            <loc>https://sysadmin.jduranasir.site/category/blog/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -42,7 +42,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/category/code/</loc>
+            <loc>https://sysadmin.jduranasir.site/category/code/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -50,7 +50,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/contacto/</loc>
+            <loc>https://sysadmin.jduranasir.site/contacto/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -58,7 +58,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/category/css/</loc>
+            <loc>https://sysadmin.jduranasir.site/category/css/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -66,7 +66,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/category/diet/</loc>
+            <loc>https://sysadmin.jduranasir.site/category/diet/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -74,7 +74,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/feed.xml</loc>
+            <loc>https://sysadmin.jduranasir.site/feed.xml</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -82,7 +82,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/</loc>
+            <loc>https://sysadmin.jduranasir.site/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -90,7 +90,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/</loc>
+            <loc>https://sysadmin.jduranasir.site/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -98,7 +98,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/category/life/</loc>
+            <loc>https://sysadmin.jduranasir.site/category/life/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -106,7 +106,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/contact/message-sent/</loc>
+            <loc>https://sysadmin.jduranasir.site/contact/message-sent/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -114,7 +114,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/category/music/</loc>
+            <loc>https://sysadmin.jduranasir.site/category/music/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -122,7 +122,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/assets/css/preview.css</loc>
+            <loc>https://sysadmin.jduranasir.site/assets/css/preview.css</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -130,7 +130,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/search.json</loc>
+            <loc>https://sysadmin.jduranasir.site/search.json</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -138,7 +138,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/sitemap.xml</loc>
+            <loc>https://sysadmin.jduranasir.site/sitemap.xml</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -146,7 +146,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/staff/</loc>
+            <loc>https://sysadmin.jduranasir.site/staff/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -154,7 +154,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/assets/css/styles.css</loc>
+            <loc>https://sysadmin.jduranasir.site/assets/css/styles.css</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -162,7 +162,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/tags/</loc>
+            <loc>https://sysadmin.jduranasir.site/tags/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -170,7 +170,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/category/tips/</loc>
+            <loc>https://sysadmin.jduranasir.site/category/tips/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -178,7 +178,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/category/travel/</loc>
+            <loc>https://sysadmin.jduranasir.site/category/travel/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -186,7 +186,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/category/tutorial/</loc>
+            <loc>https://sysadmin.jduranasir.site/category/tutorial/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -194,7 +194,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/category/work/</loc>
+            <loc>https://sysadmin.jduranasir.site/category/work/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -203,56 +203,56 @@
     
     
         <url>
-            <loc>http://localhost:4000/inicio/</loc>
+            <loc>https://sysadmin.jduranasir.site/inicio/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2023-10-06</lastmod>
         </url>
     
         <url>
-            <loc>http://localhost:4000/pulseras/</loc>
+            <loc>https://sysadmin.jduranasir.site/pulseras/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2019-05-17</lastmod>
         </url>
     
         <url>
-            <loc>http://localhost:4000/pendientes/</loc>
+            <loc>https://sysadmin.jduranasir.site/pendientes/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2018-10-09</lastmod>
         </url>
     
         <url>
-            <loc>http://localhost:4000/colgantes/</loc>
+            <loc>https://sysadmin.jduranasir.site/colgantes/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2018-07-20</lastmod>
         </url>
     
         <url>
-            <loc>http://localhost:4000/colgantes/</loc>
+            <loc>https://sysadmin.jduranasir.site/colgantes/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2018-07-20</lastmod>
         </url>
     
         <url>
-            <loc>http://localhost:4000/collares/</loc>
+            <loc>https://sysadmin.jduranasir.site/collares/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2018-04-21</lastmod>
         </url>
     
         <url>
-            <loc>http://localhost:4000/aros/</loc>
+            <loc>https://sysadmin.jduranasir.site/aros/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2018-03-12</lastmod>
         </url>
     
         <url>
-            <loc>http://localhost:4000/anillos/</loc>
+            <loc>https://sysadmin.jduranasir.site/anillos/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2015-09-06</lastmod>
@@ -260,7 +260,7 @@
     
     
         <url>
-            <loc>http://localhost:4000/authors/mranderson/</loc>
+            <loc>https://sysadmin.jduranasir.site/authors/mranderson/</loc>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
         </url>
