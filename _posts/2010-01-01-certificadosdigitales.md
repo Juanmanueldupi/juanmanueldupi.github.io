@@ -10,7 +10,7 @@ tags:
   - Seguridad
   - Cetificados Digitales
 author: mranderson
-permalink: /pulseras/
+permalink: /SAD/certificadosdigitales
 
 ---
 # Práctica:
