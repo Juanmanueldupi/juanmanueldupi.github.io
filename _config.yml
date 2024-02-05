@@ -15,7 +15,7 @@ menu:
   - title: Principal
     url: /
   - title: SAD
-    url: /SAD/certificadosdigitales
+    url: /SAD/certificadosdigitales/
   - title: Aros
     url: /aros/
   - title: Pendientes

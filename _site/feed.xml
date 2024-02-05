@@ -5,8 +5,8 @@
     <description>Web de Immensity Jewels</description>
     <link>https://sysadmin.jduranasir.site/</link>
     <atom:link href="https://sysadmin.jduranasir.site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Feb 2024 14:35:49 +0100</pubDate>
-    <lastBuildDate>Mon, 05 Feb 2024 14:35:49 +0100</lastBuildDate>
+    <pubDate>Mon, 05 Feb 2024 14:38:50 +0100</pubDate>
+    <lastBuildDate>Mon, 05 Feb 2024 14:38:50 +0100</lastBuildDate>
     <generator>Jekyll v3.9.3</generator>
     
       <item>
@@ -23,8 +23,8 @@
         <title>SAD</title>
         <description>&lt;h1 id=&quot;práctica&quot;&gt;Práctica:&lt;/h1&gt; &lt;h2 id=&quot;certificado-digital-de-persona-física&quot;&gt;Certificado digital de persona física&lt;/h2&gt; &lt;h1 id=&quot;tarea-1-instalación-del-certificado&quot;&gt;Tarea 1: Instalación del certificado&lt;/h1&gt; &lt;h2 id=&quot;una-vez-que-hayas-obtenido-tu-certificado-explica-brevemente-como-se-instala-en-tu-navegador-favorito&quot;&gt;Una vez que hayas obtenido tu certificado, explica brevemente como se instala en tu navegador favorito.&lt;/h2&gt; &lt;p&gt;Una vez descargado el certificado digital de la web de la fmnt en nuestro navegador de confianza pulsamos en el menu de aplicaciones, las tres lineas de la parte superior derecha, Ajustes -&amp;gt; Preferencias -&amp;gt; Privacidad&amp;amp;Seguridad -&amp;gt; Ver Certificados… -&amp;gt; Sus Certificados -&amp;gt; Importar&lt;/p&gt; &lt;h2 id=&quot;muestra-una-captura-de-pantalla-donde-se-vea-las-preferencias-del-navegador-donde-se-ve-instalado-tu-certificado&quot;&gt;Muestra una captura de pantalla donde se vea las preferencias del navegador donde se ve instalado tu certificado.&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/assets/img/uploads/254.jpg&quot; alt=&quot;Seguridad&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;cómo-puedes-hacer-una-copia-de-tu-certificado-como-vas-a-realizar-la-copia-de-seguridad-de-tu-certificado-razona-la-respuesta&quot;&gt;¿Cómo...</description>
         <pubDate>Fri, 17 May 2019 01:48:05 +0200</pubDate>
-        <link>https://sysadmin.jduranasir.site/SAD/certificadosdigitales</link>
-        <guid isPermaLink="true">https://sysadmin.jduranasir.site/SAD/certificadosdigitales</guid>
+        <link>https://sysadmin.jduranasir.site/SAD/certificadosdigitales/</link>
+        <guid isPermaLink="true">https://sysadmin.jduranasir.site/SAD/certificadosdigitales/</guid>
         
         <category>Seguridad</category>
         
