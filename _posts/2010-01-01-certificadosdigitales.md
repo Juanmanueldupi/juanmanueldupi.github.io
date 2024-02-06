@@ -19,9 +19,7 @@ author: mranderson
 permalink: /Certificados-digitales/
 
 ---
-# Práctica:
-
-##  Certificado digital de persona física
+#  Certificado digital de persona física
 
 # Tarea 1: Instalación del certificado
 
