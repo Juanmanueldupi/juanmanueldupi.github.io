@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: /assets/img/uploads/profile.jpeg
+photo: /assets/img/uploads/principal.png
 name: jduran
 display_name: Juan Manuel Durán
 position: The One
