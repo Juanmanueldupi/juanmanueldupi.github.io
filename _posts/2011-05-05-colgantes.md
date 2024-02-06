@@ -47,7 +47,7 @@ Status: Downloaded newer image for php:7.4-apache
 
 ## Pantallazo accediendo a la página web.
 
-!19.png!
+![Web](/assets/img/uploads/254.jpg)
 
 ## Instrucción para borrar el contenedor.
 
@@ -58,7 +58,8 @@ my-apache-php
 
 docker run -d --name my-apache-php -v miweb:/var/www/html -p 8080:80 php:7.4-apache
 319b9f43181d1c0401f3836c5f8a5dd0de0207531661e5a1b8c533ef81774e3d
-!20.png!
+
+![Web](/assets/img/uploads/254.jpg)
 
 ## Almacenamiento con bind mount
 
@@ -69,14 +70,16 @@ docker run -d --name apache-php-bind-mount -v /home/jduran/bind-mount:/var/www/h
 </pre>
 
 ## Pantallazo accediendo a la página web.
-!21.png!
+
+![Web](/assets/img/uploads/254.jpg)
 
 ##   Pantallazo accediendo a la página web, después de cambiar el fichero index.html en tu host.
 <pre>
  2024-01-19 09:40:58 ⌚  debian in ~/bind-mount
 ○ → echo "<h1>Juan Manuel Durán</h1>" > index.html
 </pre>
-!22.png!
+
+![Web](/assets/img/uploads/254.jpg)
 
 #  Redes
 
@@ -119,5 +122,7 @@ docker run -d --name nextcloud \
 </pre>
 
 ## Pantallazos accediendo a Nextcloud para comprobar que funciona de manera correcta.
-!23.png!
-!24.png!
+
+![Web](/assets/img/uploads/254.jpg)
+![Web](/assets/img/uploads/254.jpg)
+

@@ -33,43 +33,43 @@ Lo podemos realizar desde la imagen anterior, simplemente seleccionando nuestro 
 
 ## Investiga como exportar la clave pública de tu certificado.
 
-!255.png!
-!267.png!
-!284.png!
+![Seguridad](/assets/img/uploads/255.jpg)
+![Seguridad](/assets/img/uploads/267.jpg)
+![Seguridad](/assets/img/uploads/284.jpg)
 
 # Tarea 2: Validación del certificado
 
 ## Instala en tu ordenador el software autofirma y desde la página de VALIDe valida tu certificado. Muestra capturas de pantalla donde se comprueba la validación.
 
-!257.png!
-!256.png!
+![Seguridad](/assets/img/uploads/254.jpg)
+![Seguridad](/assets/img/uploads/254.jpg)
 
 # Tarea 3: Firma electrónica
 
 ## 1. Utilizando la página VALIDe y el programa autofirma, firma un documento con tu certificado y envíalo por correo a un compañero.
     
-!258.png!
-!259.png!
-!260.png!
+![Seguridad](/assets/img/uploads/254.jpg)
+![Seguridad](/assets/img/uploads/254.jpg)
+![Seguridad](/assets/img/uploads/254.jpg)
 
 ## 2. Tu debes recibir otro documento firmado por un compañero y utilizando las herramientas anteriores debes visualizar la firma (Visualizar Firma) y (Verificar Firma). ¿Puedes verificar la firma aunque no tengas la clave pública de tu compañero?  Si,ya que clave pública del compañero se adjunta en el fichero ya firmado, por lo que se puede verificar la firma, ¿Es necesario estar conectado a internet para hacer la validación de la firma?. Depende como lo realices:Con VALIDe si que es necesario estar conectado a internet ya que la comprobación se realiza a traves de la propia web. en cambio, con el sofware autofirma, no es necesario estar conectado a internet, ya que la aplicación esta corriendo en nuestro dispositivo.
     
-!270.png!
-!269.png!
+![Seguridad](/assets/img/uploads/254.jpg)
+![Seguridad](/assets/img/uploads/254.jpg)
 
 
 ## 3. Entre dos compañeros, firmar los dos un documento, verificar la firma para comprobar que está firmado por los dos.
 
-!271.png!
-!272.png!
-!273.png!
+![Seguridad](/assets/img/uploads/254.jpg)
+![Seguridad](/assets/img/uploads/254.jpg)
+![Seguridad](/assets/img/uploads/254.jpg)
 
 # Tarea 4: Autentificación
 
 ## 1. Utilizando tu certificado accede a alguna página de la administración pública )cita médica, becas, puntos del carnet,…). Entrega capturas de pantalla donde se demuestre el acceso a ellas.
 
-!261.png!
-!262.png!
+![Seguridad](/assets/img/uploads/254.jpg)
+![Seguridad](/assets/img/uploads/254.jpg)
 
 # HTTPS / SSL
 
@@ -79,14 +79,14 @@ Lo podemos realizar desde la imagen anterior, simplemente seleccionando nuestro 
 
 ## 1. Crear su autoridad certificadora (generar el certificado digital de la CA). Mostrar el fichero de configuración de la AC.
 
-!14.png!
-!15.png!
-!16.png!
+![Seguridad](/assets/img/uploads/254.jpg)
+![Seguridad](/assets/img/uploads/254.jpg)
+![Seguridad](/assets/img/uploads/254.jpg)
 
 ## 2. Debe recibir el fichero CSR (Solicitud de Firmar un Certificado) de su compañero, debe firmarlo y enviar el certificado generado a su compañero.
 
-!17.png!
-!18.png!
+![Seguridad](/assets/img/uploads/254.jpg)
+![Seguridad](/assets/img/uploads/254.jpg)
 
 ## 3. ¿Qué otra información debes aportar a tu compañero para que éste configure de forma adecuada su servidor web con el certificado generado?
 

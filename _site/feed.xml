@@ -5,8 +5,8 @@
     <description>Web de Jduran</description>
     <link>https://sysadmin.jduranasir.site/</link>
     <atom:link href="https://sysadmin.jduranasir.site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Feb 2024 12:33:33 +0100</pubDate>
-    <lastBuildDate>Tue, 06 Feb 2024 12:33:33 +0100</lastBuildDate>
+    <pubDate>Tue, 06 Feb 2024 12:43:59 +0100</pubDate>
+    <lastBuildDate>Tue, 06 Feb 2024 12:43:59 +0100</lastBuildDate>
     <generator>Jekyll v3.9.3</generator>
     
       <item>
@@ -39,23 +39,23 @@
 
 &lt;h2 id=&quot;pantallazo-donde-se-vea-el-contenido-del-fichero-dockerfile&quot;&gt;Pantallazo donde se vea el contenido del fichero Dockerfile.&lt;/h2&gt;
 
-&lt;p&gt;!20.png!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/uploads/254.jpg&quot; alt=&quot;Web&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;## Pantallazo donde se vea el comando que crea la nueva imagen.&lt;/p&gt;
 
-&lt;p&gt;!19.png!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/uploads/254.jpg&quot; alt=&quot;Web&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;## Pantallazo donde se vea el acceso a la página web primera versión.&lt;/p&gt;
 
-&lt;p&gt;!21.png!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/uploads/254.jpg&quot; alt=&quot;Web&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;## Pantallazo donde se vean las dos imágenes subidas a tu cuenta de Docker Hub.&lt;/p&gt;
 
-&lt;p&gt;!22.png!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/uploads/254.jpg&quot; alt=&quot;Web&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;pantallazo-donde-se-vea-el-acceso-a-la-página-web-segunda-versión&quot;&gt;Pantallazo donde se vea el acceso a la página web segunda versión.&lt;/h2&gt;
 
-&lt;p&gt;!23.png!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/uploads/254.jpg&quot; alt=&quot;Web&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Oct 2018 14:26:40 +0200</pubDate>
         <link>https://sysadmin.jduranasir.site/Imagenes-Docker/</link>
@@ -70,27 +70,27 @@
     
       <item>
         <title>Imagenes Docker</title>
-        <description>&lt;p&gt;Creación de imágenes Docker&lt;/p&gt;
+        <description>&lt;h1 id=&quot;creación-de-imágenes-docker&quot;&gt;Creación de imágenes Docker&lt;/h1&gt;
 
 &lt;h2 id=&quot;pantallazo-donde-se-vea-el-contenido-del-fichero-dockerfile&quot;&gt;Pantallazo donde se vea el contenido del fichero Dockerfile.&lt;/h2&gt;
 
-&lt;p&gt;!20.png!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/uploads/254.jpg&quot; alt=&quot;Web&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;pantallazo-donde-se-vea-el-comando-que-crea-la-nueva-imagen&quot;&gt;Pantallazo donde se vea el comando que crea la nueva imagen.&lt;/h2&gt;
 
-&lt;p&gt;!19.png!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/uploads/254.jpg&quot; alt=&quot;Web&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;##    Pantallazo donde se vea el acceso a la página web primera versión.&lt;/p&gt;
 
-&lt;p&gt;!21.png!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/uploads/254.jpg&quot; alt=&quot;Web&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;##    Pantallazo donde se vean las dos imágenes subidas a tu cuenta de Docker Hub.&lt;/p&gt;
 
-&lt;p&gt;!22.png!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/uploads/254.jpg&quot; alt=&quot;Web&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;pantallazo-donde-se-vea-el-acceso-a-la-página-web-segunda-versión&quot;&gt;Pantallazo donde se vea el acceso a la página web segunda versión.&lt;/h2&gt;
 
-&lt;p&gt;!23.png!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/uploads/254.jpg&quot; alt=&quot;Web&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Oct 2018 14:26:40 +0200</pubDate>
         <link>https://sysadmin.jduranasir.site/Imagenes-Docker/</link>
@@ -105,7 +105,7 @@
     
       <item>
         <title>Escenarios multicontenedor en Docker</title>
-        <description>&lt;h2 id=&quot;contenido-del-fichero-docker-composeyaml&quot;&gt;Contenido del fichero docker-compose.yaml.&lt;/h2&gt; &lt;pre&gt; version: &apos;3.7&apos; services: nextcloud: image: nextcloud:latest container_name: nextcloud restart: always ports: - 8080:80 volumes: - nextcloud:/var/www/html environment: - MYSQL_HOST=nextcloud-db - MYSQL_DATABASE=nextcloud - MYSQL_USER=nextcloud - MYSQL_PASSWORD=admin - MYSQL_ROOT_PASSWORD=nextcloud db: image: mariadb:latest container_name: nextcloud-db restart: always volumes: - nextcloud-db:/var/lib/mysql environment: - MYSQL_DATABASE=nextcloud - MYSQL_USER=nextcloud - MYSQL_PASSWORD=admin - MYSQL_ROOT_PASSWORD=nextcloud volumes: nextcloud: nextcloud-db: &lt;/pre&gt; &lt;h2 id=&quot;instrucción-para-levantar-el-escenario-con-compose&quot;&gt;Instrucción para levantar el escenario con Compose.&lt;/h2&gt; &lt;p&gt;!57.png!&lt;/p&gt; &lt;h2 id=&quot;instrucción-para-ver-los-contenedores-con-compose&quot;&gt;Instrucción para ver los contenedores con Compose.&lt;/h2&gt; &lt;p&gt;!58.png!&lt;/p&gt; &lt;h2 id=&quot;pantallazos-accediendo-a-nextcloud-para-comprobar-que-funciona-de-manera-correcta&quot;&gt;Pantallazos accediendo a nextcloud para comprobar que funciona de manera correcta.&lt;/h2&gt; &lt;p&gt;!55.png! !56.png!&lt;/p&gt; &lt;h2 id=&quot;comprobación-del-almacenamiento-que-has-definido-y-que-se-ha-creado-una-nueva-red-de-tipo-bridge&quot;&gt;Comprobación del almacenamiento que has definido y que se ha creado...</description>
+        <description>&lt;h2 id=&quot;contenido-del-fichero-docker-composeyaml&quot;&gt;Contenido del fichero docker-compose.yaml.&lt;/h2&gt; &lt;pre&gt; version: &apos;3.7&apos; services: nextcloud: image: nextcloud:latest container_name: nextcloud restart: always ports: - 8080:80 volumes: - nextcloud:/var/www/html environment: - MYSQL_HOST=nextcloud-db - MYSQL_DATABASE=nextcloud - MYSQL_USER=nextcloud - MYSQL_PASSWORD=admin - MYSQL_ROOT_PASSWORD=nextcloud db: image: mariadb:latest container_name: nextcloud-db restart: always volumes: - nextcloud-db:/var/lib/mysql environment: - MYSQL_DATABASE=nextcloud - MYSQL_USER=nextcloud - MYSQL_PASSWORD=admin - MYSQL_ROOT_PASSWORD=nextcloud volumes: nextcloud: nextcloud-db: &lt;/pre&gt; &lt;h2 id=&quot;instrucción-para-levantar-el-escenario-con-compose&quot;&gt;Instrucción para levantar el escenario con Compose.&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/assets/img/uploads/254.jpg&quot; alt=&quot;Web&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;instrucción-para-ver-los-contenedores-con-compose&quot;&gt;Instrucción para ver los contenedores con Compose.&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/assets/img/uploads/254.jpg&quot; alt=&quot;Web&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;pantallazos-accediendo-a-nextcloud-para-comprobar-que-funciona-de-manera-correcta&quot;&gt;Pantallazos accediendo a nextcloud para comprobar que funciona de manera correcta.&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/assets/img/uploads/254.jpg&quot; alt=&quot;Web&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/assets/img/uploads/254.jpg&quot; alt=&quot;Web&quot; /&gt;&lt;/p&gt;...</description>
         <pubDate>Tue, 09 Oct 2018 14:26:40 +0200</pubDate>
         <link>https://sysadmin.jduranasir.site/Escenarios-Multicontenedor/</link>
         <guid isPermaLink="true">https://sysadmin.jduranasir.site/Escenarios-Multicontenedor/</guid>
@@ -133,7 +133,7 @@
     
       <item>
         <title>Cifrado asimétrico con gpg y openssl</title>
-        <description>&lt;h1 id=&quot;tarea-1-generación-de-claves&quot;&gt;Tarea 1: Generación de claves&lt;/h1&gt; &lt;h2 id=&quot;1genera-un-par-de-claves-pública-y-privada-en-que-directorio-se-guarda-las-claves-de-un-usuario&quot;&gt;1.Genera un par de claves (pública y privada). ¿En que directorio se guarda las claves de un usuario?&lt;/h2&gt; &lt;p&gt;!154.png! Se guarda en el fichero /home/nombreusuario/.gnupg.&lt;/p&gt; &lt;h2 id=&quot;2lista-las-claves-públicas-que-tienes-en-tu-almacén-de-claves-explica-los-distintos-datos-que-nos-muestra-cómo-deberías-haber-generado-las-claves-para-indicar-por-ejemplo-que-tenga-un-1-mes-de-validez&quot;&gt;2.Lista las claves públicas que tienes en tu almacén de claves. Explica los distintos datos que nos muestra. ¿Cómo deberías haber generado las claves para indicar, por ejemplo, que tenga un 1 mes de validez?&lt;/h2&gt; &lt;p&gt;!153.png! !143.png!&lt;/p&gt; &lt;h2 id=&quot;3lista-las-claves-privadas-de-tu-almacén-de-claves&quot;&gt;3.Lista las claves privadas de tu almacén de claves.&lt;/h2&gt; &lt;p&gt;!155.png!&lt;/p&gt; &lt;h1 id=&quot;tarea-2-importar--exportar-clave-pública-1-puntopermalink&quot;&gt;Tarea 2: Importar / exportar clave pública (1 punto)Permalink&lt;/h1&gt; &lt;h2 id=&quot;1exporta-tu-clave-pública-en-formato-ascii-y-guardalo-en-un-archivo-nombre_apellidoasc-y-envíalo-al-compañero-con-el-que-vas-a-hacer-esta-práctica&quot;&gt;1.Exporta tu clave pública en formato ASCII y...</description>
+        <description>&lt;h1 id=&quot;tarea-1-generación-de-claves&quot;&gt;Tarea 1: Generación de claves&lt;/h1&gt; &lt;h2 id=&quot;1genera-un-par-de-claves-pública-y-privada-en-que-directorio-se-guarda-las-claves-de-un-usuario&quot;&gt;1.Genera un par de claves (pública y privada). ¿En que directorio se guarda las claves de un usuario?&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/assets/img/uploads/254.jpg&quot; alt=&quot;Seguridad&quot; /&gt; Se guarda en el fichero /home/nombreusuario/.gnupg.&lt;/p&gt; &lt;h2 id=&quot;2lista-las-claves-públicas-que-tienes-en-tu-almacén-de-claves-explica-los-distintos-datos-que-nos-muestra-cómo-deberías-haber-generado-las-claves-para-indicar-por-ejemplo-que-tenga-un-1-mes-de-validez&quot;&gt;2.Lista las claves públicas que tienes en tu almacén de claves. Explica los distintos datos que nos muestra. ¿Cómo deberías haber generado las claves para indicar, por ejemplo, que tenga un 1 mes de validez?&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/assets/img/uploads/254.jpg&quot; alt=&quot;Seguridad&quot; /&gt; &lt;img src=&quot;/assets/img/uploads/254.jpg&quot; alt=&quot;Seguridad&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;3lista-las-claves-privadas-de-tu-almacén-de-claves&quot;&gt;3.Lista las claves privadas de tu almacén de claves.&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/assets/img/uploads/254.jpg&quot; alt=&quot;Seguridad&quot; /&gt;&lt;/p&gt; &lt;h1 id=&quot;tarea-2-importar--exportar-clave-pública-1-puntopermalink&quot;&gt;Tarea 2: Importar / exportar clave...</description>
         <pubDate>Tue, 09 Oct 2018 14:26:40 +0200</pubDate>
         <link>https://sysadmin.jduranasir.site/Cifrado-Asimetrico/</link>
         <guid isPermaLink="true">https://sysadmin.jduranasir.site/Cifrado-Asimetrico/</guid>
