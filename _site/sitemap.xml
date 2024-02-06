@@ -224,13 +224,6 @@
         </url>
     
         <url>
-            <loc>https://sysadmin.jduranasir.site/Imagenes-Docker/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2018-10-09</lastmod>
-        </url>
-    
-        <url>
             <loc>https://sysadmin.jduranasir.site/Escenarios-Multicontenedor/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>

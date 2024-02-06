@@ -27,14 +27,6 @@
     } ,
   
     {
-      "title"    : "Imagenes Docker",
-      "tags"     : "Implantación de Aplicaciones and Docker",
-      "categories" : "IAW",
-      "url"      : "https://sysadmin.jduranasir.site/Imagenes-Docker/",
-      "date"     : "10/09/2018"
-    } ,
-  
-    {
       "title"    : "Escenarios multicontenedor en Docker",
       "tags"     : "Implantación de Aplicaciones and Docker",
       "categories" : "IAW",
