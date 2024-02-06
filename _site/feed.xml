@@ -5,8 +5,8 @@
     <description>Web de Jduran</description>
     <link>https://sysadmin.jduranasir.site/</link>
     <atom:link href="https://sysadmin.jduranasir.site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Feb 2024 12:17:09 +0100</pubDate>
-    <lastBuildDate>Tue, 06 Feb 2024 12:17:09 +0100</lastBuildDate>
+    <pubDate>Tue, 06 Feb 2024 12:19:13 +0100</pubDate>
+    <lastBuildDate>Tue, 06 Feb 2024 12:19:13 +0100</lastBuildDate>
     <generator>Jekyll v3.9.3</generator>
     
       <item>
@@ -30,7 +30,7 @@
         
         <category>Cetificados Digitales</category>
         
-        <category>joyas</category>
+        <category>ASO</category>
       </item>
     
       <item>
@@ -65,7 +65,7 @@
         
         <category>Docker</category>
         
-        <category>joyas</category>
+        <category>IAW</category>
       </item>
     
       <item>
@@ -100,7 +100,7 @@
         
         <category>Docker</category>
         
-        <category>joyas</category>
+        <category>IAW</category>
       </item>
     
       <item>
@@ -114,7 +114,7 @@
         
         <category>Docker</category>
         
-        <category>joyas</category>
+        <category>IAW</category>
       </item>
     
       <item>
@@ -128,7 +128,7 @@
         
         <category>Docker</category>
         
-        <category>joyas</category>
+        <category>IAW</category>
       </item>
     
       <item>
@@ -142,7 +142,7 @@
         
         <category>Gpg y Openssl</category>
         
-        <category>joyas</category>
+        <category>ASO</category>
       </item>
     
   </channel>

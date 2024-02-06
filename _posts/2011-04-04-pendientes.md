@@ -4,7 +4,7 @@ layout: post
 title: Cifrado asimétrico con gpg y openssl
 subtitle: 'En esta sección podremos ver practicas relacionadas con la Seguridad y Alta Disponibilidad en sistemas Linux'
 description: Seguridad y Alta disponibilidad
-category: joyas
+category: ASO
 tags:
   - Seguridad
   - Gpg y Openssl
