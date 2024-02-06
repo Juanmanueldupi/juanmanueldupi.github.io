@@ -20,7 +20,7 @@
     <title>Escenarios multicontenedor en Docker | Administración de Sistemas Operativos</title>
     <meta name="description" content="Implantación de Aplicaciones Web">
     
-        <meta name="keywords" content="Seguridad, Gpg y Openssl">
+        <meta name="keywords" content="Implantación de Aplicaciones, Docker">
     
 
     <!-- Social: Twitter -->
@@ -210,27 +210,116 @@ October 9, 2018
                 <!-- Add your table of contents here -->
 
 
-                <p>Creación de imágenes Docker</p>
+                <h2 id="contenido-del-fichero-docker-composeyaml">Contenido del fichero docker-compose.yaml.</h2>
 
-<h2 id="pantallazo-donde-se-vea-el-contenido-del-fichero-dockerfile">Pantallazo donde se vea el contenido del fichero Dockerfile.</h2>
+<pre>
+version: '3.7'
+services:
+  nextcloud:
+    image: nextcloud:latest
+    container_name: nextcloud
+    restart: always
+    ports:
+      - 8080:80
+    volumes:
+      - nextcloud:/var/www/html
+    environment:
+      - MYSQL_HOST=nextcloud-db
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+      - MYSQL_PASSWORD=admin
+      - MYSQL_ROOT_PASSWORD=nextcloud
 
-<p>!20.png!</p>
+  db:
+    image: mariadb:latest
+    container_name: nextcloud-db
+    restart: always
+    volumes:
+      - nextcloud-db:/var/lib/mysql
+    environment:
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+      - MYSQL_PASSWORD=admin
+      - MYSQL_ROOT_PASSWORD=nextcloud
 
-<h2 id="pantallazo-donde-se-vea-el-comando-que-crea-la-nueva-imagen">Pantallazo donde se vea el comando que crea la nueva imagen.</h2>
+volumes:
+  nextcloud:
+  nextcloud-db:
 
-<p>!19.png!</p>
+</pre>
 
-<p>##    Pantallazo donde se vea el acceso a la página web primera versión.</p>
+<h2 id="instrucción-para-levantar-el-escenario-con-compose">Instrucción para levantar el escenario con Compose.</h2>
+<p>!57.png!</p>
 
-<p>!21.png!</p>
+<h2 id="instrucción-para-ver-los-contenedores-con-compose">Instrucción para ver los contenedores con Compose.</h2>
+<p>!58.png!</p>
 
-<p>##    Pantallazo donde se vean las dos imágenes subidas a tu cuenta de Docker Hub.</p>
+<h2 id="pantallazos-accediendo-a-nextcloud-para-comprobar-que-funciona-de-manera-correcta">Pantallazos accediendo a nextcloud para comprobar que funciona de manera correcta.</h2>
+<p>!55.png!
+!56.png!</p>
 
-<p>!22.png!</p>
+<h2 id="comprobación-del-almacenamiento-que-has-definido-y-que-se-ha-creado-una-nueva-red-de-tipo-bridge">Comprobación del almacenamiento que has definido y que se ha creado una nueva red de tipo bridge.</h2>
+<p>!59.png!
+!60.png!</p>
 
-<h2 id="pantallazo-donde-se-vea-el-acceso-a-la-página-web-segunda-versión">Pantallazo donde se vea el acceso a la página web segunda versión.</h2>
+<pre>
+2024-01-26 20:46:03 ⌚  debian in ~/Docker
+○ → docker network inspect docker_default
+[
+    {
+        "Name": "docker_default",
+        "Id": "b2aadeabbd4cb4e987e762b719d001125626b08c81678816c754b9880f73d1e1",
+        "Created": "2024-01-26T20:38:16.953949403+01:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.22.0.0/16",
+                    "Gateway": "172.22.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "3f6a96df92b6cd661724aa360b7411d9e17828e77e64541c2fd1ddb600c1ff23": {
+                "Name": "nextcloud",
+                "EndpointID": "296a3df33e7efbfa648e1bd4ca584815aaf7efdc354dab9961c629de30bad55c",
+                "MacAddress": "02:42:ac:16:00:03",
+                "IPv4Address": "172.22.0.3/16",
+                "IPv6Address": ""
+            },
+            "608a71b991643c0ab56b023838ab896fa4a9f0ffc2ebf67a7a600558e074480b": {
+                "Name": "nextcloud-db",
+                "EndpointID": "2dcd9cbc1cd04316a6c0b4c80daf2163d9c51e4ed21aa7ece6649efa13061ea8",
+                "MacAddress": "02:42:ac:16:00:02",
+                "IPv4Address": "172.22.0.2/16",
+                "IPv6Address": ""
+            }
+        },
+        "Options": {},
+        "Labels": {
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "docker",
+            "com.docker.compose.version": "2.24.1"
+        }
+    }
+]
 
-<p>!23.png!</p>
+</pre>
+
+<h2 id="instrucción-para-borrar-el-escenario-con-compose">Instrucción para borrar el escenario con Compose.</h2>
+
+<p>!62.png!</p>
 
 
                 <!-- Pagination links -->
@@ -246,6 +335,15 @@ October 9, 2018
                         
                         
                             <li>
+                                <a href="https://sysadmin.jduranasir.site/Cifrado-Asimetrico/">
+                                    
+                                        <img src="/assets/img/off.jpg">
+                                    
+                                    <h3>Cifrado asimétrico con gpg y openssl</h3>
+                                </a>
+                            </li>
+                        
+                            <li>
                                 <a href="https://sysadmin.jduranasir.site/Imagenes-Docker/">
                                     
                                         <img src="/assets/img/off.jpg">
@@ -255,20 +353,11 @@ October 9, 2018
                             </li>
                         
                             <li>
-                                <a href="https://sysadmin.jduranasir.site/Escenarios-Multicontenedor/">
+                                <a href="https://sysadmin.jduranasir.site/Imagenes-Docker/">
                                     
                                         <img src="/assets/img/off.jpg">
                                     
-                                    <h3>Escenarios multicontenedor en Docker</h3>
-                                </a>
-                            </li>
-                        
-                            <li>
-                                <a href="https://sysadmin.jduranasir.site/inicio/">
-                                    
-                                        <img src="https://i.etsystatic.com/isbl/817f9d/52215183/isbl_1200x300.52215183_fjpb3w8t.jpg?version=0">
-                                    
-                                    <h3>Jduran Sysadmin</h3>
+                                    <h3>Imagenes Docker</h3>
                                 </a>
                             </li>
                         
@@ -291,7 +380,7 @@ October 9, 2018
 
         <!-- <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;Implantación de Aplicaciones Web&quot;%20/Escenarios-Multicontenedor/%20via%20&#64;&hashtags=Seguridad,Gpg y Openssl"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;Implantación de Aplicaciones Web&quot;%20/Escenarios-Multicontenedor/%20via%20&#64;&hashtags=Implantación de Aplicaciones,Docker"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
@@ -482,29 +571,118 @@ October 9, 2018
             "description": "Implantación de Aplicaciones Web",
             "image": "",
             "url": "https://sysadmin.jduranasir.site/Escenarios-Multicontenedor/",
-            "articleBody": "Creación de imágenes Docker
+            "articleBody": "Contenido del fichero docker-compose.yaml.
 
-Pantallazo donde se vea el contenido del fichero Dockerfile.
 
-!20.png!
+version: &apos;3.7&apos;
+services:
+  nextcloud:
+    image: nextcloud:latest
+    container_name: nextcloud
+    restart: always
+    ports:
+      - 8080:80
+    volumes:
+      - nextcloud:/var/www/html
+    environment:
+      - MYSQL_HOST=nextcloud-db
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+      - MYSQL_PASSWORD=admin
+      - MYSQL_ROOT_PASSWORD=nextcloud
 
-Pantallazo donde se vea el comando que crea la nueva imagen.
+  db:
+    image: mariadb:latest
+    container_name: nextcloud-db
+    restart: always
+    volumes:
+      - nextcloud-db:/var/lib/mysql
+    environment:
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+      - MYSQL_PASSWORD=admin
+      - MYSQL_ROOT_PASSWORD=nextcloud
 
-!19.png!
+volumes:
+  nextcloud:
+  nextcloud-db:
 
-##    Pantallazo donde se vea el acceso a la página web primera versión.
 
-!21.png!
 
-##    Pantallazo donde se vean las dos imágenes subidas a tu cuenta de Docker Hub.
+Instrucción para levantar el escenario con Compose.
+!57.png!
 
-!22.png!
+Instrucción para ver los contenedores con Compose.
+!58.png!
 
-Pantallazo donde se vea el acceso a la página web segunda versión.
+Pantallazos accediendo a nextcloud para comprobar que funciona de manera correcta.
+!55.png!
+!56.png!
 
-!23.png!
+Comprobación del almacenamiento que has definido y que se ha creado una nueva red de tipo bridge.
+!59.png!
+!60.png!
+
+
+2024-01-26 20:46:03 ⌚  debian in ~/Docker
+○ → docker network inspect docker_default
+[
+    {
+        &quot;Name&quot;: &quot;docker_default&quot;,
+        &quot;Id&quot;: &quot;b2aadeabbd4cb4e987e762b719d001125626b08c81678816c754b9880f73d1e1&quot;,
+        &quot;Created&quot;: &quot;2024-01-26T20:38:16.953949403+01:00&quot;,
+        &quot;Scope&quot;: &quot;local&quot;,
+        &quot;Driver&quot;: &quot;bridge&quot;,
+        &quot;EnableIPv6&quot;: false,
+        &quot;IPAM&quot;: {
+            &quot;Driver&quot;: &quot;default&quot;,
+            &quot;Options&quot;: null,
+            &quot;Config&quot;: [
+                {
+                    &quot;Subnet&quot;: &quot;172.22.0.0/16&quot;,
+                    &quot;Gateway&quot;: &quot;172.22.0.1&quot;
+                }
+            ]
+        },
+        &quot;Internal&quot;: false,
+        &quot;Attachable&quot;: false,
+        &quot;Ingress&quot;: false,
+        &quot;ConfigFrom&quot;: {
+            &quot;Network&quot;: &quot;&quot;
+        },
+        &quot;ConfigOnly&quot;: false,
+        &quot;Containers&quot;: {
+            &quot;3f6a96df92b6cd661724aa360b7411d9e17828e77e64541c2fd1ddb600c1ff23&quot;: {
+                &quot;Name&quot;: &quot;nextcloud&quot;,
+                &quot;EndpointID&quot;: &quot;296a3df33e7efbfa648e1bd4ca584815aaf7efdc354dab9961c629de30bad55c&quot;,
+                &quot;MacAddress&quot;: &quot;02:42:ac:16:00:03&quot;,
+                &quot;IPv4Address&quot;: &quot;172.22.0.3/16&quot;,
+                &quot;IPv6Address&quot;: &quot;&quot;
+            },
+            &quot;608a71b991643c0ab56b023838ab896fa4a9f0ffc2ebf67a7a600558e074480b&quot;: {
+                &quot;Name&quot;: &quot;nextcloud-db&quot;,
+                &quot;EndpointID&quot;: &quot;2dcd9cbc1cd04316a6c0b4c80daf2163d9c51e4ed21aa7ece6649efa13061ea8&quot;,
+                &quot;MacAddress&quot;: &quot;02:42:ac:16:00:02&quot;,
+                &quot;IPv4Address&quot;: &quot;172.22.0.2/16&quot;,
+                &quot;IPv6Address&quot;: &quot;&quot;
+            }
+        },
+        &quot;Options&quot;: {},
+        &quot;Labels&quot;: {
+            &quot;com.docker.compose.network&quot;: &quot;default&quot;,
+            &quot;com.docker.compose.project&quot;: &quot;docker&quot;,
+            &quot;com.docker.compose.version&quot;: &quot;2.24.1&quot;
+        }
+    }
+]
+
+
+
+Instrucción para borrar el escenario con Compose.
+
+!62.png!
 ",
-            "wordcount": "72",
+            "wordcount": "216",
             "inLanguage": "en",
             "dateCreated": "2018-10-09/",
             "datePublished": "2018-10-09/",
@@ -535,7 +713,7 @@ Pantallazo donde se vea el acceso a la página web segunda versión.
             "mainEntityOfPage": "True",
             "genre": "joyas",
             "articleSection": "joyas",
-            "keywords": ["Seguridad","Gpg y Openssl"]
+            "keywords": ["Implantación de Aplicaciones","Docker"]
         }
         </script>
     </body>
