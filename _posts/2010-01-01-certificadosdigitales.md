@@ -6,9 +6,11 @@ subtitle: 'En esta sección podremos ver practicas relacionadas con la Seguridad
 description: >- 
    Seguridad y Alta disponibilidad
 image: >-
-  https://immensityjewels.000webhostapp.com/assets/images/pulsera3.jpg
+    /assets/img/uploads/254.jpg
+
 optimized_image: >-
-  https://immensityjewels.000webhostapp.com/assets/images/pulsera3.jpg
+    /assets/img/uploads/254.jpg
+
 category: ASO
 tags:
   - Seguridad

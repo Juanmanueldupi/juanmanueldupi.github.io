@@ -5,9 +5,11 @@ title: Cifrado asimétrico con gpg y openssl
 subtitle: 'En esta sección podremos ver practicas relacionadas con la Seguridad y Alta Disponibilidad en sistemas Linux'
 description: Seguridad y Alta disponibilidad
 image: >-
-  https://immensityjewels.000webhostapp.com/assets/images/pulsera3.jpg
+  /assets/img/uploads/254.jpg
+  
 optimized_image: >-
-  https://immensityjewels.000webhostapp.com/assets/images/pulsera3.jpg
+    /assets/img/uploads/254.jpg
+
 category: ASO
 tags:
   - Seguridad
