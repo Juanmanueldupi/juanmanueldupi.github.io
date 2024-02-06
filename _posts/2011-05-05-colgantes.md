@@ -5,10 +5,10 @@ title: Almacenamiento y Redes en Docker
 subtitle: 'En esta sección podremos ver practicas relacionadas con la Implantación de Aplicaciones Web'
 description: Implantación de Aplicaciones Web
 image: >-
-  /assets/img/uploads/254.jpg
+  /assets/img/uploads/logodocker.png
   
 optimized_image: >-
-    /assets/img/uploads/254.jpg
+    /assets/img/uploads/logodocker.png
 
 category: IAW
 tags:
