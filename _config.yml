@@ -1,7 +1,7 @@
 # Site Settings
-name: Immensity Jewels
-title: Immensity Jewels | Tus joyas made in Spain
-description: Web de Immensity Jewels
+name: Administración de Sistemas Operativos
+title: Sysadmin | Tu admistrador de confianza
+description: Web de Jduran
 baseurl: "https://sysadmin.jduranasir.site"
 url: "" # the base hostname & protocol for your site
 tags:
@@ -20,10 +20,10 @@ menu:
     url: /Cifrado-Asimetrico/
   - title: /Almacenamiento Docker
     url: /Almacenamiento-Docker/
-  - title: Collares
-    url: /collares/
-  - title: Pulseras
-    url: /pulseras/
+  - title: Escenarios Multicontenedor
+    url: /Escenarios-Multicontenedor/
+  - title: Imagenes Docker
+    url: /Imagenes-Docker/
   - title: Colgantes
     url: /colgantes/
   - title: Sobre nosotros
