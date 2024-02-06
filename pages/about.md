@@ -5,7 +5,7 @@ date: '2020-02-27 01:53:59'
 title: Nosotros
 description: Some description.
 permalink: /sobre-nosotros/
-photo: /assets/img/uploads/profile.jpeg
+photo: /assets/img/uploads/profile.jpg
 
 ---
 
