@@ -18,14 +18,12 @@ menu:
     url: /Certificados-digitales/
   - title: Cifrado Asimétrico
     url: /Cifrado-Asimetrico/
-  - title: /Almacenamiento Docker
+  - title: Almacenamiento Docker
     url: /Almacenamiento-Docker/
   - title: Escenarios Multicontenedor
     url: /Escenarios-Multicontenedor/
   - title: Imagenes Docker
     url: /Imagenes-Docker/
-  - title: Colgantes
-    url: /colgantes/
   - title: Sobre nosotros
     url: /sobre-nosotros
   - title: Contacto
