@@ -6,7 +6,7 @@ categories: jekyll update
 permalink: /inicio/
 
 image: >-
-  /assets/img/uploads/254.jpg
+  /assets/img/uploads/profile.jpg
 ---
 
 Somos un pequeño taller donde, nuestra vocación es la joyería, nuestra motivación la ilusión y nuestros valores la calidad de las joyas y la satisfacción del cliente. Con la labor artesanal en el taller cada pieza es única e incorpora pequeños matices que la distinguen de otras.
