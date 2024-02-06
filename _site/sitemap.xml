@@ -210,24 +210,24 @@
         </url>
     
         <url>
-            <loc>https://sysadmin.jduranasir.site/SAD/certificadosdigitales/</loc>
+            <loc>https://sysadmin.jduranasir.site/Certificados-digitales/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2019-05-17</lastmod>
         </url>
     
         <url>
-            <loc>https://sysadmin.jduranasir.site/pendientes/</loc>
+            <loc>https://sysadmin.jduranasir.site/Almacenamiento-Docker/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2018-10-09</lastmod>
         </url>
     
         <url>
-            <loc>https://sysadmin.jduranasir.site/colgantes/</loc>
+            <loc>https://sysadmin.jduranasir.site/Cifrado-Asimetrico/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
-            <lastmod>2018-07-20</lastmod>
+            <lastmod>2018-10-09</lastmod>
         </url>
     
         <url>

@@ -11,27 +11,27 @@
     } ,
   
     {
-      "title"    : "SAD",
+      "title"    : "Certificados digitales y  HTTP",
       "tags"     : "Seguridad and Cetificados Digitales",
       "categories" : "joyas",
-      "url"      : "https://sysadmin.jduranasir.site/SAD/certificadosdigitales/",
+      "url"      : "https://sysadmin.jduranasir.site/Certificados-digitales/",
       "date"     : "05/17/2019"
     } ,
   
     {
-      "title"    : "SAD",
+      "title"    : "Almacenamiento y Redes en Docker",
       "tags"     : "Seguridad and Gpg y Openssl",
       "categories" : "joyas",
-      "url"      : "https://sysadmin.jduranasir.site/pendientes/",
+      "url"      : "https://sysadmin.jduranasir.site/Almacenamiento-Docker/",
       "date"     : "10/09/2018"
     } ,
   
     {
-      "title"    : "Prueba: Introducción a la implantación de aplicaciones web.",
-      "tags"     : "colgantes, plata, and a mano",
+      "title"    : "Cifrado asimétrico con gpg y openssl",
+      "tags"     : "Seguridad and Gpg y Openssl",
       "categories" : "joyas",
-      "url"      : "https://sysadmin.jduranasir.site/colgantes/",
-      "date"     : "07/20/2018"
+      "url"      : "https://sysadmin.jduranasir.site/Cifrado-Asimetrico/",
+      "date"     : "10/09/2018"
     } ,
   
     {

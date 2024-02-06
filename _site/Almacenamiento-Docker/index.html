@@ -17,28 +17,28 @@
     
     
 
-    <title>Prueba: Introducción a la implantación de aplicaciones web. | Immensity Jewels</title>
-    <meta name="description" content="Web de Immensity Jewels">
+    <title>Almacenamiento y Redes en Docker | Immensity Jewels</title>
+    <meta name="description" content="Implantación de Aplicaciones Web">
     
-        <meta name="keywords" content="colgantes, plata, a mano">
+        <meta name="keywords" content="Seguridad, Gpg y Openssl">
     
 
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Prueba: Introducción a la implantación de aplicaciones web. | Immensity Jewels">
-    <meta name="twitter:description" content="Web de Immensity Jewels">
+    <meta name="twitter:title" content="Almacenamiento y Redes en Docker | Immensity Jewels">
+    <meta name="twitter:description" content="Implantación de Aplicaciones Web">
 
     
-        <meta property="twitter:image" content="https://immensityjewels.000webhostapp.com/assets/images/colgante2.jpg">
+        <meta property="twitter:image" content="https://sysadmin.jduranasir.site/assets/img/blog-image.png">
     
     
     
 
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:url" content="https://sysadmin.jduranasir.site/colgantes/">
-    <meta property="og:title" content="Prueba: Introducción a la implantación de aplicaciones web. | Immensity Jewels">
-    <meta property="og:image" content="https://immensityjewels.000webhostapp.com/assets/images/colgante2.jpg">
-    <meta property="og:description" content="Web de Immensity Jewels">
+    <meta property="og:url" content="https://sysadmin.jduranasir.site/Almacenamiento-Docker/">
+    <meta property="og:title" content="Almacenamiento y Redes en Docker | Immensity Jewels">
+    <meta property="og:image" content="https://sysadmin.jduranasir.site/assets/img/blog-image.png">
+    <meta property="og:description" content="Implantación de Aplicaciones Web">
     <meta property="og:site_name" content="Immensity Jewels | Tus joyas made in Spain">
 
     <!-- Favicon -->
@@ -70,7 +70,7 @@
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="https://sysadmin.jduranasir.site/assets/css/styles.css">
-    <link rel="canonical" href="https://sysadmin.jduranasir.site/colgantes/">
+    <link rel="canonical" href="https://sysadmin.jduranasir.site/Almacenamiento-Docker/">
     <link rel="alternate" type="application/rss+xml" title="Immensity Jewels | Tus joyas made in Spain" href="https://sysadmin.jduranasir.site/feed.xml" />
 
     <!-- Include extra styles -->
@@ -127,19 +127,19 @@
   
     
       <li>
-        <a href="https://sysadmin.jduranasir.site/SAD/certificadosdigitales/">SAD</a>
+        <a href="https://sysadmin.jduranasir.site/Certificados-digitales/">Certificados Digitales</a>
       </li>
     
   
     
       <li>
-        <a href="https://sysadmin.jduranasir.site/aros/">Aros</a>
+        <a href="https://sysadmin.jduranasir.site/Cifrado-Asimetrico/">Cifrado Asimétrico</a>
       </li>
     
   
     
       <li>
-        <a href="https://sysadmin.jduranasir.site/pendientes/">Pendientes</a>
+        <a href="https://sysadmin.jduranasir.site/Almacenamiento-Docker/">/Almacenamiento Docker</a>
       </li>
     
   
@@ -193,22 +193,20 @@
                 <p class="post-info">
                     
                         <svg class="icon-calendar" id="date"><use xlink:href="#icon-calendar"></use></svg>
-                        <time class="date" datetime="2018-07-20T14:26:40+02:00">
+                        <time class="date" datetime="2018-10-09T14:26:40+02:00">
                             
 
 
-July 20, 2018
+October 9, 2018
 
                         </time>
                     
                     <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
                     <span>1 min to read</span>
                 </p>
-                <h1 class="post-title">Prueba: Introducción a la implantación de aplicaciones web.</h1>
-                <p class="post-subtitle">En esta sección podemos ver una Prueba: Introducción a la implantación de aplicaciones web</p>
+                <h1 class="post-title">Almacenamiento y Redes en Docker</h1>
+                <p class="post-subtitle">En esta sección podremos ver practicas relacionadas con la Implantación de Aplicaciones Web</p>
 
-                
-                    <img src="https://immensityjewels.000webhostapp.com/assets/images/colgante2.jpg" alt="Featured image" class="post-cover">
                 
 
                 <!-- Pagination links -->
@@ -218,7 +216,114 @@ July 20, 2018
                 <!-- Add your table of contents here -->
 
 
-                <h2 id="juan-manuel-duran-piñero">Juan Manuel Duran Piñero</h2>
+                <h1 id="almacenamiento-con-volúmenes-docker">Almacenamiento con volúmenes docker</h1>
+
+<h2 id="instrucción-para-crear-el-volumen-docker">Instrucción para crear el volumen docker.</h2>
+<pre>
+docker volume create miweb
+miweb
+</pre>
+
+<h2 id="instrucción-para-crear-el-contenedor">Instrucción para crear el contenedor.</h2>
+
+<pre>
+docker run -d --name my-apache-php -v miweb:/var/www/html -p 8080:80 php:7.4-apache
+Unable to find image 'php:7.4-apache' locally
+7.4-apache: Pulling from library/php
+a603fa5e3b41: Pull complete 
+c428f1a49423: Pull complete 
+156740b07ef8: Pull complete 
+fb5a4c8af82f: Pull complete 
+25f85b498fd5: Pull complete 
+9b233e420ac7: Pull complete 
+fe42347c4ecf: Pull complete 
+d14eb2ed1e17: Pull complete 
+66d98f73acb6: Pull complete 
+d2c43c5efbc8: Pull complete 
+ab590b48ea47: Pull complete 
+80692ae2d067: Pull complete 
+05e465aaa99a: Pull complete 
+Digest: sha256:c9d7e608f73832673479770d66aacc8100011ec751d1905ff63fae3fe2e0ca6d
+Status: Downloaded newer image for php:7.4-apache
+0402fe217c9212fd48845d05c9e4737d86c0c3011381734bbb32adae326b90a9
+</pre>
+
+<h2 id="pantallazo-accediendo-a-la-página-web">Pantallazo accediendo a la página web.</h2>
+
+<p>!19.png!</p>
+
+<h2 id="instrucción-para-borrar-el-contenedor">Instrucción para borrar el contenedor.</h2>
+
+<p>docker rm -f my-apache-php 
+my-apache-php</p>
+
+<h2 id="instrucción-para-crear-de-nuevo-el-contenedor-con-el-volumen-y-pantallazo-accediendo-de-nuevo-a-la-página">Instrucción para crear de nuevo el contenedor con el volumen y pantallazo accediendo de nuevo a la página.</h2>
+
+<p>docker run -d –name my-apache-php -v miweb:/var/www/html -p 8080:80 php:7.4-apache
+319b9f43181d1c0401f3836c5f8a5dd0de0207531661e5a1b8c533ef81774e3d
+!20.png!</p>
+
+<h2 id="almacenamiento-con-bind-mount">Almacenamiento con bind mount</h2>
+
+<h2 id="instrucción-para-crear-el-contenedor-1">Instrucción para crear el contenedor.</h2>
+<pre>
+docker run -d --name apache-php-bind-mount -v /home/jduran/bind-mount:/var/www/html -p 8081:80 php:7.4-apache
+2b50e3ab2c89e1977b224dffa5b44715158458cb2f5a5cb106f9f78e0d40b991
+</pre>
+
+<h2 id="pantallazo-accediendo-a-la-página-web-1">Pantallazo accediendo a la página web.</h2>
+<p>!21.png!</p>
+
+<h2 id="pantallazo-accediendo-a-la-página-web-después-de-cambiar-el-fichero-indexhtml-en-tu-host">Pantallazo accediendo a la página web, después de cambiar el fichero index.html en tu host.</h2>
+<pre>
+ 2024-01-19 09:40:58 ⌚  debian in ~/bind-mount
+○ → echo "<h1>Juan Manuel Durán</h1>" &gt; index.html
+</pre>
+<p>!22.png!</p>
+
+<h1 id="redes">Redes</h1>
+
+<h2 id="instrucción-para-crear-la-red">Instrucción para crear la red</h2>
+<pre>
+docker network create red-taller1
+81970ca7423c4278f79608a0042e2bc7b37f9f5089bc8f3cd2776033be8c3499
+</pre>
+
+<h2 id="instrucción-para-crear-el-contenedor-de-base-de-datos">Instrucción para crear el contenedor de base de datos.</h2>
+<pre>
+docker run -d --name servidor_mysql \
+                --network red-taller1 \
+                -v /opt/mysql_taller1:/var/lib/mysql \
+                -e MYSQL_DATABASE=bd_taller1 \
+                -e MYSQL_USER=user_taller1 \
+                -e MYSQL_PASSWORD=asdasd \
+                -e MYSQL_ROOT_PASSWORD=asdasd \
+                mariadb:10.5
+97b42b20fce8061279775b359454090020efeabaf0942488a47bde97a910dd11
+</pre>
+
+<h2 id="instrucción-para-crear-el-contenedor-de-nextcloud">Instrucción para crear el contenedor de Nextcloud.</h2>
+
+<pre>
+docker run -d --name nextcloud \
+                --network red-taller1 \
+                -v /opt/nextcloud_taller1:/var/www/html \
+                -v /opt/nextcloud_taller1_data:/var/www/html/data \
+                -e MYSQL_HOST=servidor_mysql \
+                -e MYSQL_DATABASE=bd_taller1 \
+                -e MYSQL_USER=user_taller1 \
+                -e MYSQL_PASSWORD=asdasd \
+                -e MYSQL_ROOT_PASSWORD=asdasd \
+                -e NEXTCLOUD_ADMIN_USER=admin_user \
+                -e NEXTCLOUD_ADMIN_PASSWORD=admin_password \
+                -p 8085:80 \
+                nextcloud
+6c61d59c5f0422a535e941350db508406c0fe9d80f9dcd9b2254fe43a25eb7f0
+</pre>
+
+<h2 id="pantallazos-accediendo-a-nextcloud-para-comprobar-que-funciona-de-manera-correcta">Pantallazos accediendo a Nextcloud para comprobar que funciona de manera correcta.</h2>
+<p>!23.png!
+!24.png!</p>
 
 
                 <!-- Pagination links -->
@@ -243,20 +348,20 @@ July 20, 2018
                             </li>
                         
                             <li>
+                                <a href="https://sysadmin.jduranasir.site/collares/">
+                                    
+                                        <img src="https://immensityjewels.000webhostapp.com/assets/images/collar2.jpg">
+                                    
+                                    <h3>Collares</h3>
+                                </a>
+                            </li>
+                        
+                            <li>
                                 <a href="https://sysadmin.jduranasir.site/anillos/">
                                     
                                         <img src="https://immensityjewels.000webhostapp.com/assets/images/anillo3.jpg">
                                     
                                     <h3>Anillos</h3>
-                                </a>
-                            </li>
-                        
-                            <li>
-                                <a href="https://sysadmin.jduranasir.site/SAD/certificadosdigitales/">
-                                    
-                                        <img src="/assets/img/off.jpg">
-                                    
-                                    <h3>SAD</h3>
                                 </a>
                             </li>
                         
@@ -279,11 +384,11 @@ July 20, 2018
 
         <!-- <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20/colgantes/%20via%20&#64;&hashtags=colgantes,plata,a mano"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;Implantación de Aplicaciones Web&quot;%20/Almacenamiento-Docker/%20via%20&#64;&hashtags=Seguridad,Gpg y Openssl"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=/colgantes/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=/Almacenamiento-Docker/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
@@ -305,7 +410,7 @@ July 20, 2018
         disqus_loaded = true;
         var disqus_shortname = 'disqus_username';
         var disqus_title = '';
-        var disqus_url = '/colgantes/';
+        var disqus_url = '/Almacenamiento-Docker/';
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
@@ -350,19 +455,19 @@ July 20, 2018
   
     
       <li>
-        <a href="https://sysadmin.jduranasir.site/SAD/certificadosdigitales/">SAD</a>
+        <a href="https://sysadmin.jduranasir.site/Certificados-digitales/">Certificados Digitales</a>
       </li>
     
   
     
       <li>
-        <a href="https://sysadmin.jduranasir.site/aros/">Aros</a>
+        <a href="https://sysadmin.jduranasir.site/Cifrado-Asimetrico/">Cifrado Asimétrico</a>
       </li>
     
   
     
       <li>
-        <a href="https://sysadmin.jduranasir.site/pendientes/">Pendientes</a>
+        <a href="https://sysadmin.jduranasir.site/Almacenamiento-Docker/">/Almacenamiento Docker</a>
       </li>
     
   
@@ -471,18 +576,125 @@ July 20, 2018
         {
             "@context": "http://schema.org",
             "@type": "BlogPosting",
-            "name": "Prueba: Introducción a la implantación de aplicaciones web.",
-            "headline": "En esta sección podemos ver una Prueba: Introducción a la implantación de aplicaciones web",
-            "description": "",
-            "image": "https://immensityjewels.000webhostapp.com/assets/images/colgante2.jpg",
-            "url": "https://sysadmin.jduranasir.site/colgantes/",
-            "articleBody": "Juan Manuel Duran Piñero
+            "name": "Almacenamiento y Redes en Docker",
+            "headline": "En esta sección podremos ver practicas relacionadas con la Implantación de Aplicaciones Web",
+            "description": "Implantación de Aplicaciones Web",
+            "image": "",
+            "url": "https://sysadmin.jduranasir.site/Almacenamiento-Docker/",
+            "articleBody": "Almacenamiento con volúmenes docker
+
+Instrucción para crear el volumen docker.
+
+docker volume create miweb
+miweb
+
+
+Instrucción para crear el contenedor.
+
+
+docker run -d --name my-apache-php -v miweb:/var/www/html -p 8080:80 php:7.4-apache
+Unable to find image &apos;php:7.4-apache&apos; locally
+7.4-apache: Pulling from library/php
+a603fa5e3b41: Pull complete 
+c428f1a49423: Pull complete 
+156740b07ef8: Pull complete 
+fb5a4c8af82f: Pull complete 
+25f85b498fd5: Pull complete 
+9b233e420ac7: Pull complete 
+fe42347c4ecf: Pull complete 
+d14eb2ed1e17: Pull complete 
+66d98f73acb6: Pull complete 
+d2c43c5efbc8: Pull complete 
+ab590b48ea47: Pull complete 
+80692ae2d067: Pull complete 
+05e465aaa99a: Pull complete 
+Digest: sha256:c9d7e608f73832673479770d66aacc8100011ec751d1905ff63fae3fe2e0ca6d
+Status: Downloaded newer image for php:7.4-apache
+0402fe217c9212fd48845d05c9e4737d86c0c3011381734bbb32adae326b90a9
+
+
+Pantallazo accediendo a la página web.
+
+!19.png!
+
+Instrucción para borrar el contenedor.
+
+docker rm -f my-apache-php 
+my-apache-php
+
+Instrucción para crear de nuevo el contenedor con el volumen y pantallazo accediendo de nuevo a la página.
+
+docker run -d –name my-apache-php -v miweb:/var/www/html -p 8080:80 php:7.4-apache
+319b9f43181d1c0401f3836c5f8a5dd0de0207531661e5a1b8c533ef81774e3d
+!20.png!
+
+Almacenamiento con bind mount
+
+Instrucción para crear el contenedor.
+
+docker run -d --name apache-php-bind-mount -v /home/jduran/bind-mount:/var/www/html -p 8081:80 php:7.4-apache
+2b50e3ab2c89e1977b224dffa5b44715158458cb2f5a5cb106f9f78e0d40b991
+
+
+Pantallazo accediendo a la página web.
+!21.png!
+
+Pantallazo accediendo a la página web, después de cambiar el fichero index.html en tu host.
+
+ 2024-01-19 09:40:58 ⌚  debian in ~/bind-mount
+○ → echo &quot;Juan Manuel Durán&quot; &amp;gt; index.html
+
+!22.png!
+
+Redes
+
+Instrucción para crear la red
+
+docker network create red-taller1
+81970ca7423c4278f79608a0042e2bc7b37f9f5089bc8f3cd2776033be8c3499
+
+
+Instrucción para crear el contenedor de base de datos.
+
+docker run -d --name servidor_mysql \
+                --network red-taller1 \
+                -v /opt/mysql_taller1:/var/lib/mysql \
+                -e MYSQL_DATABASE=bd_taller1 \
+                -e MYSQL_USER=user_taller1 \
+                -e MYSQL_PASSWORD=asdasd \
+                -e MYSQL_ROOT_PASSWORD=asdasd \
+                mariadb:10.5
+97b42b20fce8061279775b359454090020efeabaf0942488a47bde97a910dd11
+
+
+Instrucción para crear el contenedor de Nextcloud.
+
+
+docker run -d --name nextcloud \
+                --network red-taller1 \
+                -v /opt/nextcloud_taller1:/var/www/html \
+                -v /opt/nextcloud_taller1_data:/var/www/html/data \
+                -e MYSQL_HOST=servidor_mysql \
+                -e MYSQL_DATABASE=bd_taller1 \
+                -e MYSQL_USER=user_taller1 \
+                -e MYSQL_PASSWORD=asdasd \
+                -e MYSQL_ROOT_PASSWORD=asdasd \
+                -e NEXTCLOUD_ADMIN_USER=admin_user \
+                -e NEXTCLOUD_ADMIN_PASSWORD=admin_password \
+                -p 8085:80 \
+                nextcloud
+6c61d59c5f0422a535e941350db508406c0fe9d80f9dcd9b2254fe43a25eb7f0
+
+
+Pantallazos accediendo a Nextcloud para comprobar que funciona de manera correcta.
+!23.png!
+!24.png!
 ",
-            "wordcount": "5",
+            "wordcount": "328",
             "inLanguage": "en",
-            "dateCreated": "2018-07-20/",
-            "datePublished": "2018-07-20/",
-            "dateModified": "2018-07-20/",
+            "dateCreated": "2018-10-09/",
+            "datePublished": "2018-10-09/",
+            "dateModified": "2018-10-09/",
             "author": {
                 "@type": "Person",
                 "name": "Juan Manuel Durán",
@@ -509,7 +721,7 @@ July 20, 2018
             "mainEntityOfPage": "True",
             "genre": "joyas",
             "articleSection": "joyas",
-            "keywords": ["colgantes","plata","a mano"]
+            "keywords": ["Seguridad","Gpg y Openssl"]
         }
         </script>
     </body>

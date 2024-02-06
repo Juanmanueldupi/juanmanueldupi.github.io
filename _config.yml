@@ -14,12 +14,12 @@ show_hero: true
 menu:
   - title: Principal
     url: /
-  - title: SAD
-    url: /SAD/certificadosdigitales/
-  - title: Aros
-    url: /aros/
-  - title: Pendientes
-    url: /pendientes/
+  - title: Certificados Digitales
+    url: /Certificados-digitales/
+  - title: Cifrado Asimétrico
+    url: /Cifrado-Asimetrico/
+  - title: /Almacenamiento Docker
+    url: /Almacenamiento-Docker/
   - title: Collares
     url: /collares/
   - title: Pulseras

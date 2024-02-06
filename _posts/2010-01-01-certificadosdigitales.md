@@ -1,16 +1,16 @@
 ---
 date: 2019-05-16T23:48:05.000Z
 layout: post
-title: SAD
+title: Certificados digitales y  HTTP
 subtitle: 'En esta sección podremos ver practicas relacionadas con la Seguridad y Alta Disponibilidad en sistemas Linux'
 description: >- 
-  'Certificados digitales y  HTTPS'
+   Seguridad y Alta disponibilidad
 category: joyas
 tags:
   - Seguridad
   - Cetificados Digitales
 author: mranderson
-permalink: /SAD/certificadosdigitales/
+permalink: /Certificados-digitales/
 
 ---
 # Práctica:

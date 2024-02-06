@@ -1,15 +1,15 @@
 ---
 date: 2018-10-09 12:26:40
 layout: post
-title: SAD
+title: Cifrado asimétrico con gpg y openssl
 subtitle: 'En esta sección podremos ver practicas relacionadas con la Seguridad y Alta Disponibilidad en sistemas Linux'
-description: Práctica de Cifrado asimétrico con gpg y openssl.
+description: Seguridad y Alta disponibilidad
 category: joyas
 tags:
   - Seguridad
   - Gpg y Openssl
 author: mranderson
-permalink: /pendientes/
+permalink: /Cifrado-Asimetrico/
 ---
 
 # Tarea 1: Generación de claves 

@@ -17,16 +17,16 @@
     
     
 
-    <title>SAD | Immensity Jewels</title>
-    <meta name="description" content="Práctica de Cifrado asimétrico con gpg y openssl.">
+    <title>Certificados digitales y  HTTP | Immensity Jewels</title>
+    <meta name="description" content="Seguridad y Alta disponibilidad">
     
-        <meta name="keywords" content="Seguridad, Gpg y Openssl">
+        <meta name="keywords" content="Seguridad, Cetificados Digitales">
     
 
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="SAD | Immensity Jewels">
-    <meta name="twitter:description" content="Práctica de Cifrado asimétrico con gpg y openssl.">
+    <meta name="twitter:title" content="Certificados digitales y  HTTP | Immensity Jewels">
+    <meta name="twitter:description" content="Seguridad y Alta disponibilidad">
 
     
         <meta property="twitter:image" content="https://sysadmin.jduranasir.site/assets/img/blog-image.png">
@@ -35,10 +35,10 @@
     
 
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:url" content="https://sysadmin.jduranasir.site/pendientes/">
-    <meta property="og:title" content="SAD | Immensity Jewels">
+    <meta property="og:url" content="https://sysadmin.jduranasir.site/Certificados-digitales/">
+    <meta property="og:title" content="Certificados digitales y  HTTP | Immensity Jewels">
     <meta property="og:image" content="https://sysadmin.jduranasir.site/assets/img/blog-image.png">
-    <meta property="og:description" content="Práctica de Cifrado asimétrico con gpg y openssl.">
+    <meta property="og:description" content="Seguridad y Alta disponibilidad">
     <meta property="og:site_name" content="Immensity Jewels | Tus joyas made in Spain">
 
     <!-- Favicon -->
@@ -70,7 +70,7 @@
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="https://sysadmin.jduranasir.site/assets/css/styles.css">
-    <link rel="canonical" href="https://sysadmin.jduranasir.site/pendientes/">
+    <link rel="canonical" href="https://sysadmin.jduranasir.site/Certificados-digitales/">
     <link rel="alternate" type="application/rss+xml" title="Immensity Jewels | Tus joyas made in Spain" href="https://sysadmin.jduranasir.site/feed.xml" />
 
     <!-- Include extra styles -->
@@ -127,19 +127,19 @@
   
     
       <li>
-        <a href="https://sysadmin.jduranasir.site/SAD/certificadosdigitales/">SAD</a>
+        <a href="https://sysadmin.jduranasir.site/Certificados-digitales/">Certificados Digitales</a>
       </li>
     
   
     
       <li>
-        <a href="https://sysadmin.jduranasir.site/aros/">Aros</a>
+        <a href="https://sysadmin.jduranasir.site/Cifrado-Asimetrico/">Cifrado Asimétrico</a>
       </li>
     
   
     
       <li>
-        <a href="https://sysadmin.jduranasir.site/pendientes/">Pendientes</a>
+        <a href="https://sysadmin.jduranasir.site/Almacenamiento-Docker/">/Almacenamiento Docker</a>
       </li>
     
   
@@ -193,18 +193,18 @@
                 <p class="post-info">
                     
                         <svg class="icon-calendar" id="date"><use xlink:href="#icon-calendar"></use></svg>
-                        <time class="date" datetime="2018-10-09T14:26:40+02:00">
+                        <time class="date" datetime="2019-05-17T01:48:05+02:00">
                             
 
 
-October 9, 2018
+May 17, 2019
 
                         </time>
                     
                     <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
-                    <span>2 min to read</span>
+                    <span>3 min to read</span>
                 </p>
-                <h1 class="post-title">SAD</h1>
+                <h1 class="post-title">Certificados digitales y  HTTP</h1>
                 <p class="post-subtitle">En esta sección podremos ver practicas relacionadas con la Seguridad y Alta Disponibilidad en sistemas Linux</p>
 
                 
@@ -216,96 +216,92 @@ October 9, 2018
                 <!-- Add your table of contents here -->
 
 
-                <h1 id="tarea-1-generación-de-claves">Tarea 1: Generación de claves</h1>
+                <h1 id="práctica">Práctica:</h1>
 
-<h2 id="1genera-un-par-de-claves-pública-y-privada-en-que-directorio-se-guarda-las-claves-de-un-usuario">1.Genera un par de claves (pública y privada). ¿En que directorio se guarda las claves de un usuario?</h2>
+<h2 id="certificado-digital-de-persona-física">Certificado digital de persona física</h2>
 
-<p>!154.png!
-Se guarda en el fichero /home/nombreusuario/.gnupg.</p>
+<h1 id="tarea-1-instalación-del-certificado">Tarea 1: Instalación del certificado</h1>
 
-<h2 id="2lista-las-claves-públicas-que-tienes-en-tu-almacén-de-claves-explica-los-distintos-datos-que-nos-muestra-cómo-deberías-haber-generado-las-claves-para-indicar-por-ejemplo-que-tenga-un-1-mes-de-validez">2.Lista las claves públicas que tienes en tu almacén de claves. Explica los distintos datos que nos muestra. ¿Cómo deberías haber generado las claves para indicar, por ejemplo, que tenga un 1 mes de validez?</h2>
+<h2 id="una-vez-que-hayas-obtenido-tu-certificado-explica-brevemente-como-se-instala-en-tu-navegador-favorito">Una vez que hayas obtenido tu certificado, explica brevemente como se instala en tu navegador favorito.</h2>
 
-<p>!153.png!
-!143.png!</p>
+<p>Una vez descargado el certificado digital de la web de la fmnt en nuestro navegador de confianza pulsamos en el menu de aplicaciones, las tres lineas de la parte superior derecha, Ajustes -&gt; Preferencias -&gt; Privacidad&amp;Seguridad -&gt; Ver Certificados… -&gt; Sus Certificados -&gt; Importar</p>
 
-<h2 id="3lista-las-claves-privadas-de-tu-almacén-de-claves">3.Lista las claves privadas de tu almacén de claves.</h2>
+<h2 id="muestra-una-captura-de-pantalla-donde-se-vea-las-preferencias-del-navegador-donde-se-ve-instalado-tu-certificado">Muestra una captura de pantalla donde se vea las preferencias del navegador donde se ve instalado tu certificado.</h2>
 
-<p>!155.png!</p>
+<p><img src="/assets/img/uploads/254.jpg" alt="Seguridad" /></p>
 
-<h1 id="tarea-2-importar--exportar-clave-pública-1-puntopermalink">Tarea 2: Importar / exportar clave pública (1 punto)Permalink</h1>
+<h2 id="cómo-puedes-hacer-una-copia-de-tu-certificado-como-vas-a-realizar-la-copia-de-seguridad-de-tu-certificado-razona-la-respuesta">¿Cómo puedes hacer una copia de tu certificado?, ¿Como vas a realizar la copia de seguridad de tu certificado?. Razona la respuesta.</h2>
 
-<h2 id="1exporta-tu-clave-pública-en-formato-ascii-y-guardalo-en-un-archivo-nombre_apellidoasc-y-envíalo-al-compañero-con-el-que-vas-a-hacer-esta-práctica">1.Exporta tu clave pública en formato ASCII y guardalo en un archivo nombre_apellido.asc y envíalo al compañero con el que vas a hacer esta práctica.</h2>
+<p>Lo podemos realizar desde la imagen anterior, simplemente seleccionando nuestro certificado pinchando en la opción de Backup, después le pondremos contraseña y ya podremos enviar el fichero resultante a cualquier dispositivo.</p>
 
-<p>!156.png!</p>
+<h2 id="investiga-como-exportar-la-clave-pública-de-tu-certificado">Investiga como exportar la clave pública de tu certificado.</h2>
 
-<h2 id="2importa-las-claves-públicas-recibidas-de-vuestro-compañero">2.Importa las claves públicas recibidas de vuestro compañero.</h2>
+<p>!255.png!
+!267.png!
+!284.png!</p>
 
-<p>!157.png!</p>
+<h1 id="tarea-2-validación-del-certificado">Tarea 2: Validación del certificado</h1>
 
-<h2 id="3comprueba-que-las-claves-se-han-incluido-correctamente-en-vuestro-keyring">3.Comprueba que las claves se han incluido correctamente en vuestro keyring.</h2>
+<h2 id="instala-en-tu-ordenador-el-software-autofirma-y-desde-la-página-de-valide-valida-tu-certificado-muestra-capturas-de-pantalla-donde-se-comprueba-la-validación">Instala en tu ordenador el software autofirma y desde la página de VALIDe valida tu certificado. Muestra capturas de pantalla donde se comprueba la validación.</h2>
 
-<p>!158.png!</p>
+<p>!257.png!
+!256.png!</p>
 
-<h1 id="tarea-3-cifrado-asimétrico-con-claves-públicas-3-puntospermalink">Tarea 3: Cifrado asimétrico con claves públicas (3 puntos)Permalink</h1>
+<h1 id="tarea-3-firma-electrónica">Tarea 3: Firma electrónica</h1>
 
-<h2 id="1-cifraremos-un-archivo-cualquiera-y-lo-remitiremos-por-email-a-uno-de-nuestros-compañeros-que-nos-proporcionó-su-clave-pública">1. Cifraremos un archivo cualquiera y lo remitiremos por email a uno de nuestros compañeros que nos proporcionó su clave pública.</h2>
+<h2 id="1-utilizando-la-página-valide-y-el-programa-autofirma-firma-un-documento-con-tu-certificado-y-envíalo-por-correo-a-un-compañero">1. Utilizando la página VALIDe y el programa autofirma, firma un documento con tu certificado y envíalo por correo a un compañero.</h2>
 
-<p>!159.png!
-!160.png!</p>
+<p>!258.png!
+!259.png!
+!260.png!</p>
 
-<h2 id="2nuestro-compañero-a-su-vez-nos-remitirá-un-archivo-cifrado-para-que-nosotros-lo-descifremos">2.Nuestro compañero, a su vez, nos remitirá un archivo cifrado para que nosotros lo descifremos.</h2>
+<h2 id="2-tu-debes-recibir-otro-documento-firmado-por-un-compañero-y-utilizando-las-herramientas-anteriores-debes-visualizar-la-firma-visualizar-firma-y-verificar-firma-puedes-verificar-la-firma-aunque-no-tengas-la-clave-pública-de-tu-compañero--siya-que-clave-pública-del-compañero-se-adjunta-en-el-fichero-ya-firmado-por-lo-que-se-puede-verificar-la-firma-es-necesario-estar-conectado-a-internet-para-hacer-la-validación-de-la-firma-depende-como-lo-realicescon-valide-si-que-es-necesario-estar-conectado-a-internet-ya-que-la-comprobación-se-realiza-a-traves-de-la-propia-web-en-cambio-con-el-sofware-autofirma-no-es-necesario-estar-conectado-a-internet-ya-que-la-aplicación-esta-corriendo-en-nuestro-dispositivo">2. Tu debes recibir otro documento firmado por un compañero y utilizando las herramientas anteriores debes visualizar la firma (Visualizar Firma) y (Verificar Firma). ¿Puedes verificar la firma aunque no tengas la clave pública de tu compañero?  Si,ya que clave pública del compañero se adjunta en el fichero ya firmado, por lo que se puede verificar la firma, ¿Es necesario estar conectado a internet para hacer la validación de la firma?. Depende como lo realices:Con VALIDe si que es necesario estar conectado a internet ya que la comprobación se realiza a traves de la propia web. en cambio, con el sofware autofirma, no es necesario estar conectado a internet, ya que la aplicación esta corriendo en nuestro dispositivo.</h2>
 
-<p>!161.png!</p>
+<p>!270.png!
+!269.png!</p>
 
-<h2 id="3tanto-nosotros-como-nuestro-compañero-comprobaremos-que-hemos-podido-descifrar-los-mensajes-recibidos-respectivamente">3.Tanto nosotros como nuestro compañero comprobaremos que hemos podido descifrar los mensajes recibidos respectivamente.</h2>
+<h2 id="3-entre-dos-compañeros-firmar-los-dos-un-documento-verificar-la-firma-para-comprobar-que-está-firmado-por-los-dos">3. Entre dos compañeros, firmar los dos un documento, verificar la firma para comprobar que está firmado por los dos.</h2>
 
-<p>!161.png!</p>
+<p>!271.png!
+!272.png!
+!273.png!</p>
 
-<h2 id="4por-último-enviaremos-el-documento-cifrado-a-alguien-que-no-estaba-en-la-lista-de-destinatarios-y-comprobaremos-que-este-usuario-no-podrá-descifrar-este-archivo">4.Por último, enviaremos el documento cifrado a alguien que no estaba en la lista de destinatarios y comprobaremos que este usuario no podrá descifrar este archivo.</h2>
+<h1 id="tarea-4-autentificación">Tarea 4: Autentificación</h1>
 
-<h2 id="5para-terminar-indica-los-comandos-necesarios-para-borrar-las-claves-públicas-y-privadas-que-posees">5.Para terminar, indica los comandos necesarios para borrar las claves públicas y privadas que posees.</h2>
+<h2 id="1-utilizando-tu-certificado-accede-a-alguna-página-de-la-administración-pública-cita-médica-becas-puntos-del-carnet-entrega-capturas-de-pantalla-donde-se-demuestre-el-acceso-a-ellas">1. Utilizando tu certificado accede a alguna página de la administración pública )cita médica, becas, puntos del carnet,…). Entrega capturas de pantalla donde se demuestre el acceso a ellas.</h2>
 
-<p>!162.png!
-Si también queremos borrar la del compañero ponemos el id o su nombre.</p>
+<p>!261.png!
+!262.png!</p>
 
-<p>Tarea 4: Exportar clave a un servidor público de claves PGP (2 puntos)Permalink</p>
+<h1 id="https--ssl">HTTPS / SSL</h1>
 
-<h2 id="1genera-la-clave-de-revocación-de-tu-clave-pública-para-utilizarla-en-caso-de-que-haya-problemas">1.Genera la clave de revocación de tu clave pública para utilizarla en caso de que haya problemas.</h2>
+<h1 id="tarea-1-certificado-autofirmado">Tarea 1: Certificado autofirmado</h1>
 
-<p>!163.png!</p>
+<h1 id="esta-parte-la-he-realizado-con-el-compañero-fran">Esta parte la he realizado con el compañero Fran.</h1>
 
-<h2 id="2exporta-tu-clave-pública-al-servidor-pgpredirises">2.Exporta tu clave pública al servidor pgp.rediris.es</h2>
+<h2 id="1-crear-su-autoridad-certificadora-generar-el-certificado-digital-de-la-ca-mostrar-el-fichero-de-configuración-de-la-ac">1. Crear su autoridad certificadora (generar el certificado digital de la CA). Mostrar el fichero de configuración de la AC.</h2>
 
-<p>Nos da un error al realizarlo a rediris, lo hemos realizado al mit, Instituto Tecnológico de Massachusetts.</p>
+<p>!14.png!
+!15.png!
+!16.png!</p>
 
-<p>!164.png!
-!165.png!
-!166.png!</p>
+<h2 id="2-debe-recibir-el-fichero-csr-solicitud-de-firmar-un-certificado-de-su-compañero-debe-firmarlo-y-enviar-el-certificado-generado-a-su-compañero">2. Debe recibir el fichero CSR (Solicitud de Firmar un Certificado) de su compañero, debe firmarlo y enviar el certificado generado a su compañero.</h2>
 
-<h2 id="3borra-la-clave-pública-de-alguno-de-tus-compañeros-de-clase-e-impórtala-ahora-del-servidor-público-de-rediris">3.Borra la clave pública de alguno de tus compañeros de clase e impórtala ahora del servidor público de rediris.</h2>
+<p>!17.png!
+!18.png!</p>
 
-<p>!167.png!
-!168.png!</p>
+<h2 id="3-qué-otra-información-debes-aportar-a-tu-compañero-para-que-éste-configure-de-forma-adecuada-su-servidor-web-con-el-certificado-generado">3. ¿Qué otra información debes aportar a tu compañero para que éste configure de forma adecuada su servidor web con el certificado generado?</h2>
 
-<h1 id="tarea-5-cifrado-asimétrico-con-openssl-3-puntospermalink">Tarea 5: Cifrado asimétrico con openssl (3 puntos)Permalink</h1>
+<p>Debemos facilitarle tanto su documento crs firmado convertido en crt como el crt de la AC, que tambien se adjunta en la imagen anterior como la información referente a:</p>
 
-<h2 id="1-genera-un-par-de-claves-pública-y-privada">1. Genera un par de claves (pública y privada).</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>countryName
 
-<p>!169.png!
-!170.png!</p>
+stateOrProvinceName
 
-<h2 id="2envía-tu-clave-pública-a-un-compañero">2.Envía tu clave pública a un compañero.</h2>
+localityName
+</code></pre></div></div>
 
-<p>!174.png!</p>
-
-<h2 id="3utilizando-la-clave-pública-cifra-un-fichero-de-texto-y-envíalo-a-tu-compañero">3.Utilizando la clave pública cifra un fichero de texto y envíalo a tu compañero.</h2>
-
-<p>!171.png!</p>
-
-<h2 id="4tu-compañero-te-ha-mandado-un-fichero-cifrado-muestra-el-proceso-para-el-descifrado">4.Tu compañero te ha mandado un fichero cifrado, muestra el proceso para el descifrado.</h2>
-
-<p>!172.png!
-!173.png!</p>
+<p>Esta información la facilitamos al crear la AC.</p>
 
 
                 <!-- Pagination links -->
@@ -321,29 +317,29 @@ Si también queremos borrar la del compañero ponemos el id o su nombre.</p>
                         
                         
                             <li>
-                                <a href="https://sysadmin.jduranasir.site/collares/">
-                                    
-                                        <img src="https://immensityjewels.000webhostapp.com/assets/images/collar2.jpg">
-                                    
-                                    <h3>Collares</h3>
-                                </a>
-                            </li>
-                        
-                            <li>
-                                <a href="https://sysadmin.jduranasir.site/inicio/">
-                                    
-                                        <img src="https://i.etsystatic.com/isbl/817f9d/52215183/isbl_1200x300.52215183_fjpb3w8t.jpg?version=0">
-                                    
-                                    <h3>Immensity Jewels</h3>
-                                </a>
-                            </li>
-                        
-                            <li>
-                                <a href="https://sysadmin.jduranasir.site/SAD/certificadosdigitales/">
+                                <a href="https://sysadmin.jduranasir.site/Cifrado-Asimetrico/">
                                     
                                         <img src="/assets/img/off.jpg">
                                     
-                                    <h3>SAD</h3>
+                                    <h3>Cifrado asimétrico con gpg y openssl</h3>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://sysadmin.jduranasir.site/aros/">
+                                    
+                                        <img src="https://immensityjewels.000webhostapp.com/assets/images/aros1.jpg">
+                                    
+                                    <h3>Aros</h3>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://sysadmin.jduranasir.site/anillos/">
+                                    
+                                        <img src="https://immensityjewels.000webhostapp.com/assets/images/anillo3.jpg">
+                                    
+                                    <h3>Anillos</h3>
                                 </a>
                             </li>
                         
@@ -366,11 +362,11 @@ Si también queremos borrar la del compañero ponemos el id o su nombre.</p>
 
         <!-- <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;Práctica de Cifrado asimétrico con gpg y openssl.&quot;%20/pendientes/%20via%20&#64;&hashtags=Seguridad,Gpg y Openssl"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;Seguridad y Alta disponibilidad&quot;%20/Certificados-digitales/%20via%20&#64;&hashtags=Seguridad,Cetificados Digitales"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=/pendientes/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=/Certificados-digitales/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
@@ -392,7 +388,7 @@ Si también queremos borrar la del compañero ponemos el id o su nombre.</p>
         disqus_loaded = true;
         var disqus_shortname = 'disqus_username';
         var disqus_title = '';
-        var disqus_url = '/pendientes/';
+        var disqus_url = '/Certificados-digitales/';
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
@@ -437,19 +433,19 @@ Si también queremos borrar la del compañero ponemos el id o su nombre.</p>
   
     
       <li>
-        <a href="https://sysadmin.jduranasir.site/SAD/certificadosdigitales/">SAD</a>
+        <a href="https://sysadmin.jduranasir.site/Certificados-digitales/">Certificados Digitales</a>
       </li>
     
   
     
       <li>
-        <a href="https://sysadmin.jduranasir.site/aros/">Aros</a>
+        <a href="https://sysadmin.jduranasir.site/Cifrado-Asimetrico/">Cifrado Asimétrico</a>
       </li>
     
   
     
       <li>
-        <a href="https://sysadmin.jduranasir.site/pendientes/">Pendientes</a>
+        <a href="https://sysadmin.jduranasir.site/Almacenamiento-Docker/">/Almacenamiento Docker</a>
       </li>
     
   
@@ -558,107 +554,103 @@ Si también queremos borrar la del compañero ponemos el id o su nombre.</p>
         {
             "@context": "http://schema.org",
             "@type": "BlogPosting",
-            "name": "SAD",
+            "name": "Certificados digitales y  HTTP",
             "headline": "En esta sección podremos ver practicas relacionadas con la Seguridad y Alta Disponibilidad en sistemas Linux",
-            "description": "Práctica de Cifrado asimétrico con gpg y openssl.",
+            "description": "Seguridad y Alta disponibilidad",
             "image": "",
-            "url": "https://sysadmin.jduranasir.site/pendientes/",
-            "articleBody": "Tarea 1: Generación de claves
+            "url": "https://sysadmin.jduranasir.site/Certificados-digitales/",
+            "articleBody": "Práctica:
 
-1.Genera un par de claves (pública y privada). ¿En que directorio se guarda las claves de un usuario?
+Certificado digital de persona física
 
-!154.png!
-Se guarda en el fichero /home/nombreusuario/.gnupg.
+Tarea 1: Instalación del certificado
 
-2.Lista las claves públicas que tienes en tu almacén de claves. Explica los distintos datos que nos muestra. ¿Cómo deberías haber generado las claves para indicar, por ejemplo, que tenga un 1 mes de validez?
+Una vez que hayas obtenido tu certificado, explica brevemente como se instala en tu navegador favorito.
 
-!153.png!
-!143.png!
+Una vez descargado el certificado digital de la web de la fmnt en nuestro navegador de confianza pulsamos en el menu de aplicaciones, las tres lineas de la parte superior derecha, Ajustes -&amp;gt; Preferencias -&amp;gt; Privacidad&amp;amp;Seguridad -&amp;gt; Ver Certificados… -&amp;gt; Sus Certificados -&amp;gt; Importar
 
-3.Lista las claves privadas de tu almacén de claves.
+Muestra una captura de pantalla donde se vea las preferencias del navegador donde se ve instalado tu certificado.
 
-!155.png!
 
-Tarea 2: Importar / exportar clave pública (1 punto)Permalink
 
-1.Exporta tu clave pública en formato ASCII y guardalo en un archivo nombre_apellido.asc y envíalo al compañero con el que vas a hacer esta práctica.
+¿Cómo puedes hacer una copia de tu certificado?, ¿Como vas a realizar la copia de seguridad de tu certificado?. Razona la respuesta.
 
-!156.png!
+Lo podemos realizar desde la imagen anterior, simplemente seleccionando nuestro certificado pinchando en la opción de Backup, después le pondremos contraseña y ya podremos enviar el fichero resultante a cualquier dispositivo.
 
-2.Importa las claves públicas recibidas de vuestro compañero.
+Investiga como exportar la clave pública de tu certificado.
 
-!157.png!
+!255.png!
+!267.png!
+!284.png!
 
-3.Comprueba que las claves se han incluido correctamente en vuestro keyring.
+Tarea 2: Validación del certificado
 
-!158.png!
+Instala en tu ordenador el software autofirma y desde la página de VALIDe valida tu certificado. Muestra capturas de pantalla donde se comprueba la validación.
 
-Tarea 3: Cifrado asimétrico con claves públicas (3 puntos)Permalink
+!257.png!
+!256.png!
 
-1. Cifraremos un archivo cualquiera y lo remitiremos por email a uno de nuestros compañeros que nos proporcionó su clave pública.
+Tarea 3: Firma electrónica
 
-!159.png!
-!160.png!
+1. Utilizando la página VALIDe y el programa autofirma, firma un documento con tu certificado y envíalo por correo a un compañero.
 
-2.Nuestro compañero, a su vez, nos remitirá un archivo cifrado para que nosotros lo descifremos.
+!258.png!
+!259.png!
+!260.png!
 
-!161.png!
+2. Tu debes recibir otro documento firmado por un compañero y utilizando las herramientas anteriores debes visualizar la firma (Visualizar Firma) y (Verificar Firma). ¿Puedes verificar la firma aunque no tengas la clave pública de tu compañero?  Si,ya que clave pública del compañero se adjunta en el fichero ya firmado, por lo que se puede verificar la firma, ¿Es necesario estar conectado a internet para hacer la validación de la firma?. Depende como lo realices:Con VALIDe si que es necesario estar conectado a internet ya que la comprobación se realiza a traves de la propia web. en cambio, con el sofware autofirma, no es necesario estar conectado a internet, ya que la aplicación esta corriendo en nuestro dispositivo.
 
-3.Tanto nosotros como nuestro compañero comprobaremos que hemos podido descifrar los mensajes recibidos respectivamente.
+!270.png!
+!269.png!
 
-!161.png!
+3. Entre dos compañeros, firmar los dos un documento, verificar la firma para comprobar que está firmado por los dos.
 
-4.Por último, enviaremos el documento cifrado a alguien que no estaba en la lista de destinatarios y comprobaremos que este usuario no podrá descifrar este archivo.
+!271.png!
+!272.png!
+!273.png!
 
-5.Para terminar, indica los comandos necesarios para borrar las claves públicas y privadas que posees.
+Tarea 4: Autentificación
 
-!162.png!
-Si también queremos borrar la del compañero ponemos el id o su nombre.
+1. Utilizando tu certificado accede a alguna página de la administración pública )cita médica, becas, puntos del carnet,…). Entrega capturas de pantalla donde se demuestre el acceso a ellas.
 
-Tarea 4: Exportar clave a un servidor público de claves PGP (2 puntos)Permalink
+!261.png!
+!262.png!
 
-1.Genera la clave de revocación de tu clave pública para utilizarla en caso de que haya problemas.
+HTTPS / SSL
 
-!163.png!
+Tarea 1: Certificado autofirmado
 
-2.Exporta tu clave pública al servidor pgp.rediris.es
+Esta parte la he realizado con el compañero Fran.
 
-Nos da un error al realizarlo a rediris, lo hemos realizado al mit, Instituto Tecnológico de Massachusetts.
+1. Crear su autoridad certificadora (generar el certificado digital de la CA). Mostrar el fichero de configuración de la AC.
 
-!164.png!
-!165.png!
-!166.png!
+!14.png!
+!15.png!
+!16.png!
 
-3.Borra la clave pública de alguno de tus compañeros de clase e impórtala ahora del servidor público de rediris.
+2. Debe recibir el fichero CSR (Solicitud de Firmar un Certificado) de su compañero, debe firmarlo y enviar el certificado generado a su compañero.
 
-!167.png!
-!168.png!
+!17.png!
+!18.png!
 
-Tarea 5: Cifrado asimétrico con openssl (3 puntos)Permalink
+3. ¿Qué otra información debes aportar a tu compañero para que éste configure de forma adecuada su servidor web con el certificado generado?
 
-1. Genera un par de claves (pública y privada).
+Debemos facilitarle tanto su documento crs firmado convertido en crt como el crt de la AC, que tambien se adjunta en la imagen anterior como la información referente a:
 
-!169.png!
-!170.png!
+countryName
 
-2.Envía tu clave pública a un compañero.
+stateOrProvinceName
 
-!174.png!
+localityName
 
-3.Utilizando la clave pública cifra un fichero de texto y envíalo a tu compañero.
 
-!171.png!
-
-4.Tu compañero te ha mandado un fichero cifrado, muestra el proceso para el descifrado.
-
-!172.png!
-!173.png!
+Esta información la facilitamos al crear la AC.
 ",
-            "wordcount": "410",
+            "wordcount": "550",
             "inLanguage": "en",
-            "dateCreated": "2018-10-09/",
-            "datePublished": "2018-10-09/",
-            "dateModified": "2018-10-09/",
+            "dateCreated": "2019-05-17/",
+            "datePublished": "2019-05-17/",
+            "dateModified": "2019-05-17/",
             "author": {
                 "@type": "Person",
                 "name": "Juan Manuel Durán",
@@ -685,7 +677,7 @@ Tarea 5: Cifrado asimétrico con openssl (3 puntos)Permalink
             "mainEntityOfPage": "True",
             "genre": "joyas",
             "articleSection": "joyas",
-            "keywords": ["Seguridad","Gpg y Openssl"]
+            "keywords": ["Seguridad","Cetificados Digitales"]
         }
         </script>
     </body>

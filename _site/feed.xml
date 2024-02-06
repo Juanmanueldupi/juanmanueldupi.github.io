@@ -5,8 +5,8 @@
     <description>Web de Immensity Jewels</description>
     <link>https://sysadmin.jduranasir.site/</link>
     <atom:link href="https://sysadmin.jduranasir.site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Feb 2024 09:51:40 +0100</pubDate>
-    <lastBuildDate>Tue, 06 Feb 2024 09:51:40 +0100</lastBuildDate>
+    <pubDate>Tue, 06 Feb 2024 10:22:55 +0100</pubDate>
+    <lastBuildDate>Tue, 06 Feb 2024 10:22:55 +0100</lastBuildDate>
     <generator>Jekyll v3.9.3</generator>
     
       <item>
@@ -20,11 +20,11 @@
       </item>
     
       <item>
-        <title>SAD</title>
+        <title>Certificados digitales y  HTTP</title>
         <description>&lt;h1 id=&quot;práctica&quot;&gt;Práctica:&lt;/h1&gt; &lt;h2 id=&quot;certificado-digital-de-persona-física&quot;&gt;Certificado digital de persona física&lt;/h2&gt; &lt;h1 id=&quot;tarea-1-instalación-del-certificado&quot;&gt;Tarea 1: Instalación del certificado&lt;/h1&gt; &lt;h2 id=&quot;una-vez-que-hayas-obtenido-tu-certificado-explica-brevemente-como-se-instala-en-tu-navegador-favorito&quot;&gt;Una vez que hayas obtenido tu certificado, explica brevemente como se instala en tu navegador favorito.&lt;/h2&gt; &lt;p&gt;Una vez descargado el certificado digital de la web de la fmnt en nuestro navegador de confianza pulsamos en el menu de aplicaciones, las tres lineas de la parte superior derecha, Ajustes -&amp;gt; Preferencias -&amp;gt; Privacidad&amp;amp;Seguridad -&amp;gt; Ver Certificados… -&amp;gt; Sus Certificados -&amp;gt; Importar&lt;/p&gt; &lt;h2 id=&quot;muestra-una-captura-de-pantalla-donde-se-vea-las-preferencias-del-navegador-donde-se-ve-instalado-tu-certificado&quot;&gt;Muestra una captura de pantalla donde se vea las preferencias del navegador donde se ve instalado tu certificado.&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/assets/img/uploads/254.jpg&quot; alt=&quot;Seguridad&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;cómo-puedes-hacer-una-copia-de-tu-certificado-como-vas-a-realizar-la-copia-de-seguridad-de-tu-certificado-razona-la-respuesta&quot;&gt;¿Cómo...</description>
         <pubDate>Fri, 17 May 2019 01:48:05 +0200</pubDate>
-        <link>https://sysadmin.jduranasir.site/SAD/certificadosdigitales/</link>
-        <guid isPermaLink="true">https://sysadmin.jduranasir.site/SAD/certificadosdigitales/</guid>
+        <link>https://sysadmin.jduranasir.site/Certificados-digitales/</link>
+        <guid isPermaLink="true">https://sysadmin.jduranasir.site/Certificados-digitales/</guid>
         
         <category>Seguridad</category>
         
@@ -34,11 +34,11 @@
       </item>
     
       <item>
-        <title>SAD</title>
-        <description>&lt;h1 id=&quot;tarea-1-generación-de-claves&quot;&gt;Tarea 1: Generación de claves&lt;/h1&gt; &lt;h2 id=&quot;1genera-un-par-de-claves-pública-y-privada-en-que-directorio-se-guarda-las-claves-de-un-usuario&quot;&gt;1.Genera un par de claves (pública y privada). ¿En que directorio se guarda las claves de un usuario?&lt;/h2&gt; &lt;p&gt;!154.png! Se guarda en el fichero /home/nombreusuario/.gnupg.&lt;/p&gt; &lt;h2 id=&quot;2lista-las-claves-públicas-que-tienes-en-tu-almacén-de-claves-explica-los-distintos-datos-que-nos-muestra-cómo-deberías-haber-generado-las-claves-para-indicar-por-ejemplo-que-tenga-un-1-mes-de-validez&quot;&gt;2.Lista las claves públicas que tienes en tu almacén de claves. Explica los distintos datos que nos muestra. ¿Cómo deberías haber generado las claves para indicar, por ejemplo, que tenga un 1 mes de validez?&lt;/h2&gt; &lt;p&gt;!153.png! !143.png!&lt;/p&gt; &lt;h2 id=&quot;3lista-las-claves-privadas-de-tu-almacén-de-claves&quot;&gt;3.Lista las claves privadas de tu almacén de claves.&lt;/h2&gt; &lt;p&gt;!155.png!&lt;/p&gt; &lt;h1 id=&quot;tarea-2-importar--exportar-clave-pública-1-puntopermalink&quot;&gt;Tarea 2: Importar / exportar clave pública (1 punto)Permalink&lt;/h1&gt; &lt;h2 id=&quot;1exporta-tu-clave-pública-en-formato-ascii-y-guardalo-en-un-archivo-nombre_apellidoasc-y-envíalo-al-compañero-con-el-que-vas-a-hacer-esta-práctica&quot;&gt;1.Exporta tu clave pública en formato ASCII y...</description>
+        <title>Almacenamiento y Redes en Docker</title>
+        <description>&lt;h1 id=&quot;almacenamiento-con-volúmenes-docker&quot;&gt;Almacenamiento con volúmenes docker&lt;/h1&gt; &lt;h2 id=&quot;instrucción-para-crear-el-volumen-docker&quot;&gt;Instrucción para crear el volumen docker.&lt;/h2&gt; &lt;pre&gt; docker volume create miweb miweb &lt;/pre&gt; &lt;h2 id=&quot;instrucción-para-crear-el-contenedor&quot;&gt;Instrucción para crear el contenedor.&lt;/h2&gt; &lt;pre&gt; docker run -d --name my-apache-php -v miweb:/var/www/html -p 8080:80 php:7.4-apache Unable to find image &apos;php:7.4-apache&apos; locally 7.4-apache: Pulling from library/php a603fa5e3b41: Pull complete c428f1a49423: Pull complete 156740b07ef8: Pull complete fb5a4c8af82f: Pull complete 25f85b498fd5: Pull complete 9b233e420ac7: Pull complete fe42347c4ecf: Pull complete d14eb2ed1e17: Pull complete 66d98f73acb6: Pull complete d2c43c5efbc8: Pull complete ab590b48ea47: Pull complete 80692ae2d067: Pull complete 05e465aaa99a: Pull complete Digest: sha256:c9d7e608f73832673479770d66aacc8100011ec751d1905ff63fae3fe2e0ca6d Status: Downloaded newer image for php:7.4-apache 0402fe217c9212fd48845d05c9e4737d86c0c3011381734bbb32adae326b90a9 &lt;/pre&gt; &lt;h2 id=&quot;pantallazo-accediendo-a-la-página-web&quot;&gt;Pantallazo accediendo a la...</description>
         <pubDate>Tue, 09 Oct 2018 14:26:40 +0200</pubDate>
-        <link>https://sysadmin.jduranasir.site/pendientes/</link>
-        <guid isPermaLink="true">https://sysadmin.jduranasir.site/pendientes/</guid>
+        <link>https://sysadmin.jduranasir.site/Almacenamiento-Docker/</link>
+        <guid isPermaLink="true">https://sysadmin.jduranasir.site/Almacenamiento-Docker/</guid>
         
         <category>Seguridad</category>
         
@@ -48,18 +48,15 @@
       </item>
     
       <item>
-        <title>Prueba: Introducción a la implantación de aplicaciones web.</title>
-        <description>&lt;h2 id=&quot;juan-manuel-duran-piñero&quot;&gt;Juan Manuel Duran Piñero&lt;/h2&gt;
-</description>
-        <pubDate>Fri, 20 Jul 2018 14:26:40 +0200</pubDate>
-        <link>https://sysadmin.jduranasir.site/colgantes/</link>
-        <guid isPermaLink="true">https://sysadmin.jduranasir.site/colgantes/</guid>
+        <title>Cifrado asimétrico con gpg y openssl</title>
+        <description>&lt;h1 id=&quot;tarea-1-generación-de-claves&quot;&gt;Tarea 1: Generación de claves&lt;/h1&gt; &lt;h2 id=&quot;1genera-un-par-de-claves-pública-y-privada-en-que-directorio-se-guarda-las-claves-de-un-usuario&quot;&gt;1.Genera un par de claves (pública y privada). ¿En que directorio se guarda las claves de un usuario?&lt;/h2&gt; &lt;p&gt;!154.png! Se guarda en el fichero /home/nombreusuario/.gnupg.&lt;/p&gt; &lt;h2 id=&quot;2lista-las-claves-públicas-que-tienes-en-tu-almacén-de-claves-explica-los-distintos-datos-que-nos-muestra-cómo-deberías-haber-generado-las-claves-para-indicar-por-ejemplo-que-tenga-un-1-mes-de-validez&quot;&gt;2.Lista las claves públicas que tienes en tu almacén de claves. Explica los distintos datos que nos muestra. ¿Cómo deberías haber generado las claves para indicar, por ejemplo, que tenga un 1 mes de validez?&lt;/h2&gt; &lt;p&gt;!153.png! !143.png!&lt;/p&gt; &lt;h2 id=&quot;3lista-las-claves-privadas-de-tu-almacén-de-claves&quot;&gt;3.Lista las claves privadas de tu almacén de claves.&lt;/h2&gt; &lt;p&gt;!155.png!&lt;/p&gt; &lt;h1 id=&quot;tarea-2-importar--exportar-clave-pública-1-puntopermalink&quot;&gt;Tarea 2: Importar / exportar clave pública (1 punto)Permalink&lt;/h1&gt; &lt;h2 id=&quot;1exporta-tu-clave-pública-en-formato-ascii-y-guardalo-en-un-archivo-nombre_apellidoasc-y-envíalo-al-compañero-con-el-que-vas-a-hacer-esta-práctica&quot;&gt;1.Exporta tu clave pública en formato ASCII y...</description>
+        <pubDate>Tue, 09 Oct 2018 14:26:40 +0200</pubDate>
+        <link>https://sysadmin.jduranasir.site/Cifrado-Asimetrico/</link>
+        <guid isPermaLink="true">https://sysadmin.jduranasir.site/Cifrado-Asimetrico/</guid>
         
-        <category>colgantes</category>
+        <category>Seguridad</category>
         
-        <category>plata</category>
-        
-        <category>a mano</category>
+        <category>Gpg y Openssl</category>
         
         <category>joyas</category>
       </item>
