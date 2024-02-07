@@ -35,11 +35,6 @@ Una vez descargado el certificado digital de la web de la fmnt en nuestro navega
 
 Lo podemos realizar desde la imagen anterior, simplemente seleccionando nuestro certificado pinchando en la opción de Backup, después le pondremos contraseña y ya podremos enviar el fichero resultante a cualquier dispositivo.
 
-## Investiga como exportar la clave pública de tu certificado.
-
-![Seguridad](/assets/img/uploads/255.png)
-![Seguridad](/assets/img/uploads/267.png)
-![Seguridad](/assets/img/uploads/284.png)
 
 #  Validación del certificado
 
