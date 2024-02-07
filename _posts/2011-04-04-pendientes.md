@@ -18,68 +18,68 @@ author: mranderson
 permalink: /Cifrado-Asimetrico/
 ---
 
-# Tarea 1: Generación de claves 
+# Generación de claves 
 
-## 1.Genera un par de claves (pública y privada). ¿En que directorio se guarda las claves de un usuario?
+## Genera un par de claves (pública y privada). ¿En que directorio se guarda las claves de un usuario?
 
 ![Seguridad](/assets/img/uploads/154.png)
 
 Se guarda en el fichero /home/nombreusuario/.gnupg.
 
-## 2.Lista las claves públicas que tienes en tu almacén de claves. Explica los distintos datos que nos muestra. ¿Cómo deberías haber generado las claves para indicar, por ejemplo, que tenga un 1 mes de validez?
+## Lista las claves públicas que tienes en tu almacén de claves. Explica los distintos datos que nos muestra. ¿Cómo deberías haber generado las claves para indicar, por ejemplo, que tenga un 1 mes de validez?
 
 ![Seguridad](/assets/img/uploads/153.png)
 ![Seguridad](/assets/img/uploads/143.png)
 
-## 3.Lista las claves privadas de tu almacén de claves.
+## Lista las claves privadas de tu almacén de claves.
 
 ![Seguridad](/assets/img/uploads/155.png)
 
-# Tarea 2: Importar / exportar clave pública (1 punto)Permalink
+#  Importar / exportar clave pública 
 
-## 1.Exporta tu clave pública en formato ASCII y guardalo en un archivo nombre_apellido.asc y envíalo al compañero con el que vas a hacer esta práctica.
+## Exporta tu clave pública en formato ASCII y guardalo en un archivo nombre_apellido.asc y envíalo al compañero con el que vas a hacer esta práctica.
 
 ![Seguridad](/assets/img/uploads/156.png)
 
-##  2.Importa las claves públicas recibidas de vuestro compañero.
+##  Importa las claves públicas recibidas de vuestro compañero.
 
 ![Seguridad](/assets/img/uploads/157.png)
     
-## 3.Comprueba que las claves se han incluido correctamente en vuestro keyring.
+## Comprueba que las claves se han incluido correctamente en vuestro keyring.
 
 ![Seguridad](/assets/img/uploads/158.png)
 
-# Tarea 3: Cifrado asimétrico con claves públicas (3 puntos)Permalink
+#  Cifrado asimétrico con claves públicas 
 
 
-## 1. Cifraremos un archivo cualquiera y lo remitiremos por email a uno de nuestros compañeros que nos proporcionó su clave pública.
+## Cifraremos un archivo cualquiera y lo remitiremos por email a uno de nuestros compañeros que nos proporcionó su clave pública.
 
 ![Seguridad](/assets/img/uploads/159.png)
 ![Seguridad](/assets/img/uploads/160.png)
 
-## 2.Nuestro compañero, a su vez, nos remitirá un archivo cifrado para que nosotros lo descifremos.
+## Nuestro compañero, a su vez, nos remitirá un archivo cifrado para que nosotros lo descifremos.
 
 ![Seguridad](/assets/img/uploads/161.png)
 
-## 3.Tanto nosotros como nuestro compañero comprobaremos que hemos podido descifrar los mensajes recibidos respectivamente.
+## Tanto nosotros como nuestro compañero comprobaremos que hemos podido descifrar los mensajes recibidos respectivamente.
 
 ![Seguridad](/assets/img/uploads/161.png)
  
-##   4.Por último, enviaremos el documento cifrado a alguien que no estaba en la lista de destinatarios y comprobaremos que este usuario no podrá descifrar este archivo.
+## Por último, enviaremos el documento cifrado a alguien que no estaba en la lista de destinatarios y comprobaremos que este usuario no podrá descifrar este archivo.
 
-## 5.Para terminar, indica los comandos necesarios para borrar las claves públicas y privadas que posees.
+## Para terminar, indica los comandos necesarios para borrar las claves públicas y privadas que posees.
 
 ![Seguridad](/assets/img/uploads/162.png)
 
 Si también queremos borrar la del compañero ponemos el id o su nombre.
 
-# Tarea 4: Exportar clave a un servidor público de claves PGP (2 puntos)Permalink
+# Exportar clave a un servidor público de claves PGP 
 
-## 1.Genera la clave de revocación de tu clave pública para utilizarla en caso de que haya problemas.
+## Genera la clave de revocación de tu clave pública para utilizarla en caso de que haya problemas.
 
 ![Seguridad](/assets/img/uploads/163.png)
     
-## 2.Exporta tu clave pública al servidor pgp.rediris.es
+## Exporta tu clave pública al servidor pgp.rediris.es
 
 Nos da un error al realizarlo a rediris, lo hemos realizado al mit, Instituto Tecnológico de Massachusetts.
 
@@ -87,27 +87,27 @@ Nos da un error al realizarlo a rediris, lo hemos realizado al mit, Instituto Te
 ![Seguridad](/assets/img/uploads/165.png)
 ![Seguridad](/assets/img/uploads/166.png)
 
-## 3.Borra la clave pública de alguno de tus compañeros de clase e impórtala ahora del servidor público de rediris.
+## Borra la clave pública de alguno de tus compañeros de clase e impórtala ahora del servidor público de rediris.
 
 ![Seguridad](/assets/img/uploads/167.png)
 ![Seguridad](/assets/img/uploads/168.png)
 
-# Tarea 5: Cifrado asimétrico con openssl (3 puntos)Permalink
+# Cifrado asimétrico con openssl 
 
-## 1. Genera un par de claves (pública y privada).
+## Genera un par de claves (pública y privada).
 
 ![Seguridad](/assets/img/uploads/169.png)
 ![Seguridad](/assets/img/uploads/170.png)
 
-## 2.Envía tu clave pública a un compañero.
+## Envía tu clave pública a un compañero.
 
 ![Seguridad](/assets/img/uploads/174.png)
 
-## 3.Utilizando la clave pública cifra un fichero de texto y envíalo a tu compañero.
+## Utilizando la clave pública cifra un fichero de texto y envíalo a tu compañero.
 
 ![Seguridad](/assets/img/uploads/171.png)
 
-## 4.Tu compañero te ha mandado un fichero cifrado, muestra el proceso para el descifrado.
+## Tu compañero te ha mandado un fichero cifrado, muestra el proceso para el descifrado.
 
 ![Seguridad](/assets/img/uploads/172.png)
 ![Seguridad](/assets/img/uploads/173.png)
