@@ -17,4 +17,3 @@ photo: /assets/img/uploads/profile.jpg
 Estudiante de Administración de Sistemas Operativos en Red a punto de graduarse, apasionado por la innovación y la tecnología, buscando oportunidades de desarrollo personal y profesional.
 
 
-<!--<img src="/assets/img/uploads/contactanos.jpg"  width="900" height="300">
